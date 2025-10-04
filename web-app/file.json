@@ -642,5 +642,19 @@
         "time": "10/03/2025 09:14",
         "location": "Livingston Ave",
         "category": "Burglary"
+    },
+    {
+        "type": "Murder Purposely",
+        "record_id": "25NB68091-1",
+        "time": "10/03/2025 16:35",
+        "location": "George St",
+        "category": "Murder"
+    },
+    {
+        "type": "Arson Motor Vehicle",
+        "record_id": "25NB99316-1",
+        "time": "10/03/2025 16:38",
+        "location": "Somerset St",
+        "category": "Arson"
     }
 ]

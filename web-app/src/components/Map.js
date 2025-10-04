@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import { geocodeCrimes } from '../utils/geocoding';
 import { getMarkerIcon } from '../utils/crimeData';
 import { AlertTriangle, ExternalLink, RefreshCw } from 'lucide-react';
+import Legend from './Legend';
 
 // Dynamic import for Google Maps loader
 let mapsPromise = null;
@@ -59,7 +60,7 @@ export default function Map({ crimes, selectedCrime, onCrimeSelect }) {
   const mapRef = useRef(null);
   const [map, setMap] = useState(null);
   const [geocoder, setGeocoder] = useState(null);
-  const [markers, setMarkers] = useState([]);
+  const markersRef = useRef([]); // Track markers for cleanup
   const [geocodedCrimes, setGeocodedCrimes] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -157,26 +158,57 @@ export default function Map({ crimes, selectedCrime, onCrimeSelect }) {
 
   // Geocode crimes and create markers
   useEffect(() => {
-    if (!map || !geocoder || !crimes.length) return;
+    if (!map || !geocoder) return;
 
     const setupMarkers = async () => {
       setIsLoading(true);
 
-      // Clear existing markers
-      markers.forEach(marker => marker.setMap(null));
+      // Clear existing markers properly using ref
+      markersRef.current.forEach(marker => {
+        marker.setMap(null);
+        // Remove all listeners to prevent memory leaks
+        google.maps.event.clearInstanceListeners(marker);
+      });
+      markersRef.current = []; // Clear the ref array
+
+      // If no crimes, reset map to default view and return
+      if (!crimes || crimes.length === 0) {
+        setGeocodedCrimes([]);
+        setIsLoading(false);
+
+        // Reset map to default New Brunswick view when no crimes
+        if (map) {
+          map.setCenter({ lat: 40.4862, lng: -74.4518 });
+          map.setZoom(14);
+        }
+        return;
+      }
 
       // Geocode crimes
       const geocoded = await geocodeCrimes(crimes, geocoder);
       setGeocodedCrimes(geocoded);
 
+      // Filter out crimes without valid coordinates
+      const validGeocoded = geocoded.filter(crime => crime.coordinates);
+
+      // If no valid geocoded crimes, reset map
+      if (validGeocoded.length === 0) {
+        setIsLoading(false);
+        if (map) {
+          map.setCenter({ lat: 40.4862, lng: -74.4518 });
+          map.setZoom(14);
+        }
+        return;
+      }
+
       // Create new markers (using standard Marker API)
-      const newMarkers = geocoded.map(crime => {
+      const newMarkers = validGeocoded.map(crime => {
         // Using the standard Marker API (not deprecated, just a TS warning)
         const marker = new window.google.maps.Marker({
           position: crime.coordinates,
           map: map,
           title: crime.displayType,
-          icon: getMarkerIcon(crime.severity),
+          icon: getMarkerIcon(crime.category),
           animation: window.google.maps.Animation.DROP,
         });
 
@@ -208,8 +240,8 @@ export default function Map({ crimes, selectedCrime, onCrimeSelect }) {
               </div>
               <div class="mt-3 pt-3 border-t border-gray-100">
                 <span class="inline-flex items-center px-2.5 py-1 rounded-lg text-xs font-medium"
-                  style="background-color: ${crime.severityColor}15; color: ${crime.severityColor}; border: 1px solid ${crime.severityColor}40">
-                  ${crime.severity} RISK
+                  style="background-color: ${crime.categoryColor}15; color: ${crime.categoryColor}; border: 1px solid ${crime.categoryColor}40">
+                  ${crime.category}
                 </span>
               </div>
             </div>
@@ -223,7 +255,7 @@ export default function Map({ crimes, selectedCrime, onCrimeSelect }) {
         return marker;
       });
 
-      setMarkers(newMarkers);
+      markersRef.current = newMarkers; // Update the ref
 
       // Adjust map bounds to fit all markers
       if (newMarkers.length > 0) {
@@ -231,25 +263,53 @@ export default function Map({ crimes, selectedCrime, onCrimeSelect }) {
         newMarkers.forEach(marker => {
           bounds.extend(marker.getPosition());
         });
+
+        // Fit bounds with some padding
         map.fitBounds(bounds);
+
+        // If only one marker, don't zoom in too much
+        if (newMarkers.length === 1) {
+          setTimeout(() => {
+            if (map.getZoom() > 16) {
+              map.setZoom(16);
+            }
+          }, 100);
+        }
+      } else {
+        // No markers to show, reset to default view
+        map.setCenter({ lat: 40.4862, lng: -74.4518 });
+        map.setZoom(14);
       }
 
       setIsLoading(false);
     };
 
     setupMarkers();
-  }, [map, geocoder, crimes]);
+
+    // Cleanup function to clear markers when component unmounts
+    return () => {
+      markersRef.current.forEach(marker => {
+        if (marker && marker.setMap) {
+          marker.setMap(null);
+          if (window.google && window.google.maps && window.google.maps.event) {
+            google.maps.event.clearInstanceListeners(marker);
+          }
+        }
+      });
+      markersRef.current = [];
+    };
+  }, [map, geocoder, crimes, onCrimeSelect]);
 
   // Handle selected crime from sidebar
   useEffect(() => {
-    if (!selectedCrime || !map || !markers.length) return;
+    if (!selectedCrime || !map || !markersRef.current.length) return;
 
     const crime = geocodedCrimes.find(c => c.record_id === selectedCrime.record_id);
     if (!crime || !crime.coordinates) return;
 
     // Find the corresponding marker
     const markerIndex = geocodedCrimes.indexOf(crime);
-    const marker = markers[markerIndex];
+    const marker = markersRef.current[markerIndex];
 
     if (marker) {
       map.setCenter(crime.coordinates);
@@ -258,7 +318,7 @@ export default function Map({ crimes, selectedCrime, onCrimeSelect }) {
       // Trigger click on the marker to show info window
       google.maps.event.trigger(marker, 'click');
     }
-  }, [selectedCrime, map, markers, geocodedCrimes]);
+  }, [selectedCrime, map, geocodedCrimes]); // Removed markers from dependencies, using ref instead
 
   // Handle retry
   const handleRetry = () => {
@@ -368,26 +428,18 @@ export default function Map({ crimes, selectedCrime, onCrimeSelect }) {
       )}
       <div ref={mapRef} className="h-full w-full" />
 
-      {/* Legend - only show when map is loaded */}
-      {map && !error && (
-        <div className="absolute bottom-6 right-6 bg-white/95 backdrop-blur-sm rounded-xl shadow-xl p-4 border border-gray-100">
-          <h4 className="font-medium text-gray-800 mb-3 text-xs uppercase tracking-wider">Severity</h4>
-          <div className="space-y-2">
-            <div className="flex items-center space-x-3">
-              <div className="w-3 h-3 rounded-full bg-red-500 ring-2 ring-red-200"></div>
-              <span className="text-xs text-gray-600">High Risk</span>
-            </div>
-            <div className="flex items-center space-x-3">
-              <div className="w-3 h-3 rounded-full bg-orange-500 ring-2 ring-orange-200"></div>
-              <span className="text-xs text-gray-600">Medium Risk</span>
-            </div>
-            <div className="flex items-center space-x-3">
-              <div className="w-3 h-3 rounded-full bg-yellow-500 ring-2 ring-yellow-200"></div>
-              <span className="text-xs text-gray-600">Low Risk</span>
-            </div>
+      {/* No crimes message */}
+      {!isLoading && !error && map && crimes.length === 0 && (
+        <div className="absolute top-4 left-1/2 transform -translate-x-1/2 bg-white rounded-lg shadow-md px-4 py-3 z-10">
+          <div className="flex items-center space-x-2">
+            <AlertTriangle className="w-5 h-5 text-yellow-500" />
+            <p className="text-sm text-gray-700">No crimes match the selected filters</p>
           </div>
         </div>
       )}
+
+      {/* Legend - only show when map is loaded and there are crimes */}
+      {map && !error && crimes.length > 0 && <Legend />}
     </div>
   );
 }

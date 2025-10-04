@@ -1,27 +1,50 @@
 'use client';
 
-import { MapPin, Calendar, Clock, AlertTriangle, AlertCircle, Info } from 'lucide-react';
+import { MapPin, Calendar, Clock, AlertTriangle, Flame, Users, Target, Home, Shield, Activity } from 'lucide-react';
+import { getCategoryColor } from '../utils/crimeData';
 
 export default function CrimeCard({ crime, isSelected, onClick }) {
-  const getSeverityIcon = (severity) => {
-    switch (severity) {
-      case 'HIGH':
+  const getCategoryIcon = (category) => {
+    switch (category) {
+      case 'Murder':
         return <AlertTriangle className="w-3.5 h-3.5" />;
-      case 'MEDIUM':
-        return <AlertCircle className="w-3.5 h-3.5" />;
+      case 'Shooting with Injuries':
+        return <Target className="w-3.5 h-3.5" />;
+      case 'Aggravated Assault':
+        return <Users className="w-3.5 h-3.5" />;
+      case 'Robbery':
+        return <Shield className="w-3.5 h-3.5" />;
+      case 'Arson':
+        return <Flame className="w-3.5 h-3.5" />;
+      case 'Burglary':
+        return <Home className="w-3.5 h-3.5" />;
+      case 'Simple Assault':
+        return <Activity className="w-3.5 h-3.5" />;
       default:
-        return <Info className="w-3.5 h-3.5" />;
+        return <Activity className="w-3.5 h-3.5" />;
     }
   };
 
-  const getSeverityStyles = (severity) => {
-    switch (severity) {
-      case 'HIGH':
+  const getCategoryStyles = (category) => {
+    const color = getCategoryColor(category);
+    // Create a lighter background version
+    switch (category) {
+      case 'Murder':
+        return 'bg-red-50 text-red-800 border-red-200';
+      case 'Shooting with Injuries':
         return 'bg-red-50 text-red-700 border-red-200';
-      case 'MEDIUM':
+      case 'Aggravated Assault':
         return 'bg-orange-50 text-orange-700 border-orange-200';
-      default:
+      case 'Robbery':
+        return 'bg-amber-50 text-amber-700 border-amber-200';
+      case 'Arson':
         return 'bg-yellow-50 text-yellow-700 border-yellow-200';
+      case 'Burglary':
+        return 'bg-green-50 text-green-700 border-green-200';
+      case 'Simple Assault':
+        return 'bg-cyan-50 text-cyan-700 border-cyan-200';
+      default:
+        return 'bg-gray-50 text-gray-700 border-gray-200';
     }
   };
 
@@ -36,7 +59,7 @@ export default function CrimeCard({ crime, isSelected, onClick }) {
       `}
       onClick={onClick}
     >
-      {/* Header with Severity Badge */}
+      {/* Header with Category Badge */}
       <div className="flex items-start justify-between mb-3">
         <h3 className="font-medium text-gray-900 text-sm leading-5 flex-1 mr-2">
           {crime.displayType}
@@ -44,11 +67,11 @@ export default function CrimeCard({ crime, isSelected, onClick }) {
         <span
           className={`
             inline-flex items-center space-x-1 px-2 py-1 rounded-lg text-xs font-medium border
-            ${getSeverityStyles(crime.severity)}
+            ${getCategoryStyles(crime.category)}
           `}
         >
-          {getSeverityIcon(crime.severity)}
-          <span>{crime.severity}</span>
+          {getCategoryIcon(crime.category)}
+          <span className="truncate max-w-[100px]">{crime.category}</span>
         </span>
       </div>
 

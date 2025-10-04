@@ -1,13 +1,13 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
-import { Search, Filter, Shield, X, TrendingUp, AlertCircle, Activity, Calendar, ChevronDown } from 'lucide-react';
+import { Search, Filter, X, TrendingUp, AlertCircle, Activity, Calendar, ChevronDown, Flame, Users, Target, AlertTriangle, Home } from 'lucide-react';
 import CrimeCard from './CrimeCard';
-import { filterCrimes, sortCrimesByDate, filterCrimesByTimeRange, TIME_RANGES, getDateRange } from '../utils/crimeData';
+import { filterCrimes, sortCrimesByDate, filterCrimesByTimeRange, TIME_RANGES, getDateRange, getAllCategories } from '../utils/crimeData';
 
 export default function Sidebar({ crimes, selectedCrime, onCrimeSelect, onFilteredCrimesChange }) {
   const [searchQuery, setSearchQuery] = useState('');
-  const [severityFilter, setSeverityFilter] = useState('ALL');
+  const [categoryFilter, setCategoryFilter] = useState('ALL');
   const [timeRange, setTimeRange] = useState(TIME_RANGES.ALL);
   const [isTimeDropdownOpen, setIsTimeDropdownOpen] = useState(false);
   const [filteredCrimes, setFilteredCrimes] = useState([]);
@@ -31,9 +31,9 @@ export default function Sidebar({ crimes, selectedCrime, onCrimeSelect, onFilter
     // Apply time range filter
     filtered = filterCrimesByTimeRange(filtered, timeRange);
 
-    // Apply severity filter
-    if (severityFilter !== 'ALL') {
-      filtered = filtered.filter(crime => crime.severity === severityFilter);
+    // Apply category filter
+    if (categoryFilter !== 'ALL') {
+      filtered = filtered.filter(crime => crime.category === categoryFilter);
     }
 
     // Sort by date (most recent first)
@@ -45,61 +45,49 @@ export default function Sidebar({ crimes, selectedCrime, onCrimeSelect, onFilter
     if (onFilteredCrimesChange) {
       onFilteredCrimesChange(filtered);
     }
-  }, [crimes, searchQuery, severityFilter, timeRange, onFilteredCrimesChange]);
+  }, [crimes, searchQuery, categoryFilter, timeRange, onFilteredCrimesChange]);
+
+  // Get category counts
+  const categoryCounts = {};
+  getAllCategories().forEach(category => {
+    categoryCounts[category] = filteredCrimes.filter(c => c.category === category).length;
+  });
 
   const crimeStats = {
     total: filteredCrimes.length,
-    high: filteredCrimes.filter(c => c.severity === 'HIGH').length,
-    medium: filteredCrimes.filter(c => c.severity === 'MEDIUM').length,
-    low: filteredCrimes.filter(c => c.severity === 'LOW').length,
+    ...categoryCounts,
   };
 
   return (
     <div className="h-full flex flex-col bg-white">
       {/* Header */}
       <div className="bg-gradient-to-r from-slate-900 to-slate-800 text-white px-6 py-5">
-        <div className="flex items-center space-x-3 mb-4">
-          <div className="p-2 bg-white/10 rounded-lg backdrop-blur-sm">
-            <Shield className="w-6 h-6" />
-          </div>
-          <div>
-            <h1 className="text-xl font-semibold tracking-tight">
-              Crime Tracker
-            </h1>
-            <p className="text-xs text-slate-300">New Brunswick, NJ</p>
-          </div>
+        <div className="mb-4">
+          <h2 className="text-xl font-semibold tracking-tight">
+            Crime Incidents
+          </h2>
+          <p className="text-xs text-slate-300 mt-1">Real-time crime data</p>
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-4 gap-3">
-          <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3">
+        <div className="grid grid-cols-2 gap-3">
+          <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 col-span-2">
             <div className="flex items-center justify-between mb-1">
               <Activity className="w-4 h-4 text-slate-300" />
-              <p className="text-2xl font-bold">{crimeStats.total}</p>
+              <p className="text-3xl font-bold">{crimeStats.total}</p>
             </div>
-            <p className="text-xs text-slate-300">Total</p>
+            <p className="text-xs text-slate-300">Total Incidents</p>
           </div>
-          <div className="bg-red-500/20 backdrop-blur-sm rounded-lg p-3">
-            <div className="flex items-center justify-between mb-1">
-              <TrendingUp className="w-4 h-4 text-red-300" />
-              <p className="text-2xl font-bold">{crimeStats.high}</p>
-            </div>
-            <p className="text-xs text-red-200">High</p>
-          </div>
-          <div className="bg-orange-500/20 backdrop-blur-sm rounded-lg p-3">
-            <div className="flex items-center justify-between mb-1">
-              <AlertCircle className="w-4 h-4 text-orange-300" />
-              <p className="text-2xl font-bold">{crimeStats.medium}</p>
-            </div>
-            <p className="text-xs text-orange-200">Medium</p>
-          </div>
-          <div className="bg-yellow-500/20 backdrop-blur-sm rounded-lg p-3">
-            <div className="flex items-center justify-between mb-1">
-              <Activity className="w-4 h-4 text-yellow-300" />
-              <p className="text-2xl font-bold">{crimeStats.low}</p>
-            </div>
-            <p className="text-xs text-yellow-200">Low</p>
-          </div>
+          {/* Show top categories with counts */}
+          {Object.entries(categoryCounts)
+            .sort((a, b) => b[1] - a[1])
+            .slice(0, 4)
+            .map(([category, count]) => (
+              <div key={category} className="bg-white/10 backdrop-blur-sm rounded-lg p-2">
+                <p className="text-lg font-bold">{count}</p>
+                <p className="text-xs text-slate-300 truncate">{category}</p>
+              </div>
+            ))}
         </div>
 
       </div>
@@ -177,29 +165,38 @@ export default function Sidebar({ crimes, selectedCrime, onCrimeSelect, onFilter
           )}
         </div>
 
-        {/* Filter Pills */}
-        <div className="flex items-center space-x-2">
-          <Filter className="w-4 h-4 text-gray-400" />
-          <div className="flex space-x-2">
-            {['ALL', 'HIGH', 'MEDIUM', 'LOW'].map((level) => (
+        {/* Filter Pills - Category Filter */}
+        <div className="space-y-2">
+          <div className="flex items-center space-x-2 mb-2">
+            <Filter className="w-4 h-4 text-gray-400" />
+            <span className="text-xs text-gray-600 font-medium">Filter by Category</span>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            <button
+              onClick={() => setCategoryFilter('ALL')}
+              className={`
+                px-3 py-1.5 rounded-lg text-xs font-medium transition-all duration-200
+                ${categoryFilter === 'ALL'
+                  ? 'bg-slate-800 text-white shadow-sm'
+                  : 'bg-white text-gray-600 hover:bg-gray-100 border border-gray-200'
+                }
+              `}
+            >
+              ALL
+            </button>
+            {getAllCategories().map((category) => (
               <button
-                key={level}
-                onClick={() => setSeverityFilter(level)}
+                key={category}
+                onClick={() => setCategoryFilter(category)}
                 className={`
                   px-3 py-1.5 rounded-lg text-xs font-medium transition-all duration-200
-                  ${severityFilter === level
-                    ? level === 'ALL'
-                      ? 'bg-slate-800 text-white shadow-sm'
-                      : level === 'HIGH'
-                      ? 'bg-red-500 text-white shadow-sm'
-                      : level === 'MEDIUM'
-                      ? 'bg-orange-500 text-white shadow-sm'
-                      : 'bg-yellow-500 text-white shadow-sm'
+                  ${categoryFilter === category
+                    ? 'bg-slate-700 text-white shadow-sm'
                     : 'bg-white text-gray-600 hover:bg-gray-100 border border-gray-200'
                   }
                 `}
               >
-                {level}
+                {category}
               </button>
             ))}
           </div>

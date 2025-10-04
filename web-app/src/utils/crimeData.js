@@ -1,69 +1,88 @@
 import crimeDataRaw from '../../file.json';
 import { parseISO, format, subDays, startOfDay, endOfDay, isWithinInterval } from 'date-fns';
 
-// Crime severity mapping for color coding
-const CRIME_SEVERITY = {
-  HIGH: ['AGGRAVATED ASSAULT', 'ROBBERY', 'STRANGULATION', 'BURGLARY'],
-  MEDIUM: ['SIMPLE ASSAULT', 'ASSAULT ON MEDICAL'],
-  LOW: ['MV::Burglary']
+// Crime categories with their associated colors
+const CATEGORY_COLORS = {
+  'Murder': '#991B1B', // red-800
+  'Shooting with Injuries': '#DC2626', // red-600
+  'Aggravated Assault': '#EA580C', // orange-600
+  'Robbery': '#D97706', // amber-600
+  'Arson': '#CA8A04', // yellow-600
+  'Burglary': '#16A34A', // green-600
+  'Simple Assault': '#0891B2', // cyan-600
 };
 
-// Get severity level based on crime type
-export const getCrimeSeverity = (crimeType) => {
-  const upperType = crimeType.toUpperCase();
-
-  for (const [severity, keywords] of Object.entries(CRIME_SEVERITY)) {
-    if (keywords.some(keyword => upperType.includes(keyword))) {
-      return severity;
-    }
-  }
-  return 'LOW';
+// Get color based on category
+export const getCategoryColor = (category) => {
+  return CATEGORY_COLORS[category] || '#6B7280'; // gray-500 as default
 };
 
-// Get color based on severity
-export const getSeverityColor = (severity) => {
-  switch (severity) {
-    case 'HIGH':
-      return '#DC2626'; // red-600
-    case 'MEDIUM':
-      return '#F97316'; // orange-500
-    case 'LOW':
-      return '#EAB308'; // yellow-500
+// Get SVG path for category icon - using simpler shapes for better visibility
+const getCategoryIconPath = (category) => {
+  switch (category) {
+    case 'Murder':
+      // Triangle (warning)
+      return 'M 0,-8 L -7,7 L 7,7 Z';
+    case 'Shooting with Injuries':
+      // Diamond
+      return 'M 0,-8 L 8,0 L 0,8 L -8,0 Z';
+    case 'Aggravated Assault':
+      // Square
+      return 'M -6,-6 L 6,-6 L 6,6 L -6,6 Z';
+    case 'Robbery':
+      // Pentagon (shield-like)
+      return 'M 0,-8 L 7,-3 L 5,6 L -5,6 L -7,-3 Z';
+    case 'Arson':
+      // Star
+      return 'M 0,-8 L 2,-2 L 8,-1 L 3,3 L 4,8 L 0,5 L -4,8 L -3,3 L -8,-1 L -2,-2 Z';
+    case 'Burglary':
+      // House shape
+      return 'M 0,-7 L -7,0 L -7,7 L -2,7 L -2,2 L 2,2 L 2,7 L 7,7 L 7,0 Z';
+    case 'Simple Assault':
+      // Circle
+      return 'M 0,-7 A 7,7 0 1,1 0,7 A 7,7 0 1,1 0,-7 Z';
     default:
-      return '#6B7280'; // gray-500
+      // Default circle
+      return 'M 0,-7 A 7,7 0 1,1 0,7 A 7,7 0 1,1 0,-7 Z';
   }
 };
 
-// Get marker icon based on severity
-export const getMarkerIcon = (severity) => {
-  const color = getSeverityColor(severity);
+// Get marker icon based on category
+export const getMarkerIcon = (category) => {
+  const color = getCategoryColor(category);
+  const iconPath = getCategoryIconPath(category);
 
   // Check if google maps is loaded
   if (typeof google !== 'undefined' && google.maps) {
-    return {
-      path: google.maps.SymbolPath.CIRCLE,
+    // Create a custom SVG icon
+    const svgIcon = {
+      path: iconPath,
       fillColor: color,
       fillOpacity: 0.9,
       strokeColor: '#ffffff',
       strokeWeight: 2,
-      scale: 8,
+      scale: 1.8,
+      anchor: new google.maps.Point(0, 0), // Center anchor for our centered paths
     };
+
+    return svgIcon;
   }
 
   // Fallback icon if google maps not loaded
   return {
-    path: 'M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z',
+    path: iconPath,
     fillColor: color,
     fillOpacity: 0.9,
     strokeColor: '#ffffff',
     strokeWeight: 2,
-    scale: 1,
+    scale: 1.8,
   };
 };
 
 // Format crime data for display
 export const formatCrimeData = (crime) => {
-  const severity = getCrimeSeverity(crime.type);
+  // Use the category from the JSON data
+  const category = crime.category || 'Unknown';
 
   // Parse the date string (MM/DD/YYYY HH:mm format)
   const [datePart, timePart] = crime.time.split(' ');
@@ -73,8 +92,8 @@ export const formatCrimeData = (crime) => {
 
   return {
     ...crime,
-    severity,
-    severityColor: getSeverityColor(severity),
+    category,
+    categoryColor: getCategoryColor(category),
     formattedDate: format(crimeDate, 'MMM dd, yyyy'),
     formattedTime: format(crimeDate, 'h:mm a'),
     fullDateTime: crimeDate,
@@ -117,7 +136,7 @@ export const filterCrimes = (crimes, searchQuery) => {
   return crimes.filter(crime =>
     crime.displayType.toLowerCase().includes(query) ||
     crime.location.toLowerCase().includes(query) ||
-    crime.severity.toLowerCase().includes(query) ||
+    crime.category.toLowerCase().includes(query) ||
     crime.formattedDate.toLowerCase().includes(query)
   );
 };
@@ -139,16 +158,33 @@ export const TIME_RANGES = {
   ALL: 'all',
 };
 
+// Get the latest date from the crime data
+let latestCrimeDate = null;
+
+const getLatestCrimeDate = () => {
+  if (!latestCrimeDate) {
+    // Parse all crime dates and find the latest one
+    const allCrimes = processCrimeData();
+    if (allCrimes.length > 0) {
+      const sortedCrimes = sortCrimesByDate(allCrimes);
+      latestCrimeDate = sortedCrimes[0].fullDateTime;
+    }
+  }
+  return latestCrimeDate || new Date();
+};
+
 // Get date range based on selection
 export const getDateRange = (timeRange) => {
-  const now = new Date();
-  const today = startOfDay(now);
+  // Use the latest crime date as reference instead of current date
+  const referenceDate = getLatestCrimeDate();
+  const today = startOfDay(referenceDate);
+  const endDate = endOfDay(referenceDate);
 
   switch (timeRange) {
     case TIME_RANGES.TODAY:
       return {
         start: today,
-        end: endOfDay(now),
+        end: endDate,
         label: 'Today',
       };
     case TIME_RANGES.YESTERDAY:
@@ -160,39 +196,39 @@ export const getDateRange = (timeRange) => {
       };
     case TIME_RANGES.PAST_7:
       return {
-        start: subDays(today, 7),
-        end: endOfDay(now),
+        start: subDays(today, 6), // Changed to 6 to include today
+        end: endDate,
         label: 'Past 7 days',
       };
     case TIME_RANGES.PAST_14:
       return {
-        start: subDays(today, 14),
-        end: endOfDay(now),
+        start: subDays(today, 13), // Changed to 13 to include today
+        end: endDate,
         label: 'Past 14 days',
       };
     case TIME_RANGES.PAST_28:
       return {
-        start: subDays(today, 28),
-        end: endOfDay(now),
+        start: subDays(today, 27), // Changed to 27 to include today
+        end: endDate,
         label: 'Past 28 days',
       };
     case TIME_RANGES.PAST_90:
       return {
-        start: subDays(today, 90),
-        end: endOfDay(now),
+        start: subDays(today, 89), // Changed to 89 to include today
+        end: endDate,
         label: 'Past 90 days',
       };
     case TIME_RANGES.PAST_365:
       return {
-        start: subDays(today, 365),
-        end: endOfDay(now),
+        start: subDays(today, 364), // Changed to 364 to include today
+        end: endDate,
         label: 'Past 365 days',
       };
     case TIME_RANGES.ALL:
     default:
       return {
         start: new Date(2020, 0, 1), // Far past date
-        end: endOfDay(now),
+        end: new Date(2030, 0, 1), // Far future date to include all
         label: 'All time',
       };
   }
@@ -210,4 +246,9 @@ export const filterCrimesByTimeRange = (crimes, timeRange) => {
     if (!crime.fullDateTime) return false;
     return isWithinInterval(crime.fullDateTime, { start, end });
   });
+};
+
+// Get all unique categories from crimes
+export const getAllCategories = () => {
+  return ['Robbery', 'Arson', 'Aggravated Assault', 'Murder', 'Simple Assault', 'Burglary', 'Shooting with Injuries'];
 };
