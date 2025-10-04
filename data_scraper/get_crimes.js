@@ -24,7 +24,7 @@ function ymdhm(date) {
 }
 
 async function main() {
-  const startISO = process.argv[2] || "2025-06-11T00:00:00";
+  const startISO = process.argv[2] || "2025-08-31T00:00:00";
   const endISO   = process.argv[3] || "2025-10-04T23:59:00";
   const types    = process.argv[4] !== undefined ? process.argv[4] : ""; // pipe-separated or ""
 

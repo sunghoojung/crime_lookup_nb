@@ -64,7 +64,7 @@ def clean_location(location: str) -> str:
     loc = loc.title()
     return loc
 
-with open("list.html", "r", encoding="utf-8") as file:
+with open("data_scraper/list.html", "r", encoding="utf-8") as file:
     html = file.read()
 
 soup = BeautifulSoup(html, "html.parser")
@@ -100,6 +100,6 @@ for row in rows[1:]:
 # Output JSON
 
 json_output = json.dumps(crime_data, indent=2)
-with open("file.json", "w", encoding="utf-8") as file:
+with open("data_scraper/file.json", "w", encoding="utf-8") as file:
     json.dump(crime_data, file, indent=2)
 print(json_output)
