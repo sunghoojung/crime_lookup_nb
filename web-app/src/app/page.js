@@ -10,6 +10,7 @@ export default function Home() {
   const [filteredCrimes, setFilteredCrimes] = useState([]);
   const [selectedCrime, setSelectedCrime] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
+  const [routeData, setRouteData] = useState(null);
 
   useEffect(() => {
     // Process crime data on mount
@@ -25,6 +26,14 @@ export default function Home() {
 
   const handleFilteredCrimesChange = useCallback((filtered) => {
     setFilteredCrimes(filtered);
+  }, []);
+
+  const handleRouteCalculated = useCallback((route) => {
+    setRouteData(route);
+  }, []);
+
+  const handleClearRoute = useCallback(() => {
+    setRouteData(null);
   }, []);
 
   if (isLoading) {
@@ -47,6 +56,8 @@ export default function Home() {
           selectedCrime={selectedCrime}
           onCrimeSelect={handleCrimeSelect}
           onFilteredCrimesChange={handleFilteredCrimesChange}
+          onRouteCalculated={handleRouteCalculated}
+          onClearRoute={handleClearRoute}
         />
       </div>
 
@@ -56,6 +67,7 @@ export default function Home() {
           crimes={filteredCrimes}
           selectedCrime={selectedCrime}
           onCrimeSelect={handleCrimeSelect}
+          routeData={routeData}
         />
       </div>
     </div>

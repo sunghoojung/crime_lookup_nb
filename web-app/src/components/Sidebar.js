@@ -1,16 +1,18 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
-import { Search, Filter, X, TrendingUp, AlertCircle, Activity, Calendar, ChevronDown, Flame, Users, Target, AlertTriangle, Home } from 'lucide-react';
+import { Search, Filter, X, TrendingUp, AlertCircle, Activity, Calendar, ChevronDown, Flame, Users, Target, AlertTriangle, Home, Route, MapPin } from 'lucide-react';
 import CrimeCard from './CrimeCard';
+import RoutePlanner from './RoutePlanner';
 import { filterCrimes, sortCrimesByDate, filterCrimesByTimeRange, TIME_RANGES, getDateRange, getAllCategories } from '../utils/crimeData';
 
-export default function Sidebar({ crimes, selectedCrime, onCrimeSelect, onFilteredCrimesChange }) {
+export default function Sidebar({ crimes, selectedCrime, onCrimeSelect, onFilteredCrimesChange, onRouteCalculated, onClearRoute }) {
   const [searchQuery, setSearchQuery] = useState('');
   const [categoryFilter, setCategoryFilter] = useState('ALL');
   const [timeRange, setTimeRange] = useState(TIME_RANGES.ALL);
   const [isTimeDropdownOpen, setIsTimeDropdownOpen] = useState(false);
   const [filteredCrimes, setFilteredCrimes] = useState([]);
+  const [activeTab, setActiveTab] = useState('crimes'); // 'crimes' or 'route'
   const dropdownRef = useRef(null);
 
   // Close dropdown when clicking outside
@@ -60,14 +62,49 @@ export default function Sidebar({ crimes, selectedCrime, onCrimeSelect, onFilter
 
   return (
     <div className="h-full flex flex-col bg-white">
-      {/* Header */}
-      <div className="bg-gradient-to-r from-slate-900 to-slate-800 text-white px-6 py-5">
-        <div className="mb-4">
-          <h2 className="text-xl font-semibold tracking-tight">
-            Crime Incidents
-          </h2>
-          <p className="text-xs text-slate-300 mt-1">Real-time crime data</p>
+      {/* Tab Navigation */}
+      <div className="border-b border-gray-200">
+        <div className="flex">
+          <button
+            onClick={() => setActiveTab('crimes')}
+            className={`flex-1 px-6 py-3 text-sm font-medium transition-colors ${
+              activeTab === 'crimes'
+                ? 'text-blue-600 border-b-2 border-blue-600'
+                : 'text-gray-500 hover:text-gray-700'
+            }`}
+          >
+            <div className="flex items-center justify-center space-x-2">
+              <AlertCircle className="w-4 h-4" />
+              <span>Crime Data</span>
+            </div>
+          </button>
+          <button
+            onClick={() => setActiveTab('route')}
+            className={`flex-1 px-6 py-3 text-sm font-medium transition-colors ${
+              activeTab === 'route'
+                ? 'text-blue-600 border-b-2 border-blue-600'
+                : 'text-gray-500 hover:text-gray-700'
+            }`}
+          >
+            <div className="flex items-center justify-center space-x-2">
+              <Route className="w-4 h-4" />
+              <span>Route Planner</span>
+            </div>
+          </button>
         </div>
+      </div>
+
+      {/* Crime Tab Content */}
+      {activeTab === 'crimes' && (
+        <>
+          {/* Header */}
+          <div className="bg-gradient-to-r from-slate-900 to-slate-800 text-white px-6 py-5">
+            <div className="mb-4">
+              <h2 className="text-xl font-semibold tracking-tight">
+                Crime Incidents
+              </h2>
+              <p className="text-xs text-slate-300 mt-1">Real-time crime data</p>
+            </div>
 
         {/* Stats */}
         <div className="grid grid-cols-2 gap-3">
@@ -244,6 +281,18 @@ export default function Sidebar({ crimes, selectedCrime, onCrimeSelect, onFilter
           </span>
         </div>
       </div>
+        </>
+      )}
+
+      {/* Route Tab Content */}
+      {activeTab === 'route' && (
+        <div className="p-6 overflow-y-auto flex-1">
+          <RoutePlanner
+            onRouteCalculated={onRouteCalculated}
+            onClearRoute={onClearRoute}
+          />
+        </div>
+      )}
     </div>
   );
 }
