@@ -1,0 +1,176 @@
+{
+    "Central Ave": {
+        "Burglary": 1
+    },
+    "Paul Robeson Blvd": {
+        "Simple Assault": 1,
+        "Aggravated Assault": 1
+    },
+    "Sandford St": {
+        "Simple Assault": 2,
+        "Arson": 1,
+        "Burglary": 1
+    },
+    "Somerset St": {
+        "Burglary": 3,
+        "Simple Assault": 3
+    },
+    "Senior St": {
+        "Burglary": 1
+    },
+    "Handy St": {
+        "Simple Assault": 1
+    },
+    "Church St": {
+        "Simple Assault": 1
+    },
+    "French St": {
+        "Burglary": 1,
+        "Aggravated Assault": 1,
+        "Simple Assault": 2
+    },
+    "Remsen Ave": {
+        "Burglary": 2,
+        "Aggravated Assault": 1,
+        "Murder": 1,
+        "Arson": 1,
+        "Robbery": 1
+    },
+    "Louis St": {
+        "Burglary": 1,
+        "Aggravated Assault": 1,
+        "Simple Assault": 2
+    },
+    "Robert Wood Johnson Pl": {
+        "Simple Assault": 2
+    },
+    "Kirkpatrick St": {
+        "Simple Assault": 1
+    },
+    "Jersey Ave": {
+        "Simple Assault": 1,
+        "Robbery": 1
+    },
+    "Richardson St": {
+        "Burglary": 1
+    },
+    "Us Hwy 1 N": {
+        "Aggravated Assault": 2,
+        "Simple Assault": 2
+    },
+    "Lawrence St": {
+        "Burglary": 2,
+        "Simple Assault": 1
+    },
+    "Ellen St": {
+        "Aggravated Assault": 1
+    },
+    "Spring St": {
+        "Burglary": 1
+    },
+    "Roosevelt Ave": {
+        "Simple Assault": 2
+    },
+    "Woodbridge St": {
+        "Burglary": 1
+    },
+    "State Hwy": {
+        "Simple Assault": 1
+    },
+    "Hoffman Blvd": {
+        "Simple Assault": 1
+    },
+    "Joyce Kilmer Ave": {
+        "Simple Assault": 2
+    },
+    "Easton Ave": {
+        "Simple Assault": 3,
+        "Burglary": 1
+    },
+    "Brookside Ave": {
+        "Simple Assault": 1
+    },
+    "Hamilton St": {
+        "Simple Assault": 1,
+        "Aggravated Assault": 1
+    },
+    "Harvey St": {
+        "Aggravated Assault": 1
+    },
+    "Lufberry Ave": {
+        "Simple Assault": 1,
+        "Burglary": 1
+    },
+    "S Ward St": {
+        "Simple Assault": 1
+    },
+    "James St": {
+        "Robbery": 1
+    },
+    "Bethany St": {
+        "Burglary": 1
+    },
+    "Powers St": {
+        "Simple Assault": 1,
+        "Burglary": 1
+    },
+    "Edpas Rd": {
+        "Simple Assault": 1
+    },
+    "Dennis St": {
+        "Burglary": 1
+    },
+    "Guilden St": {
+        "Burglary": 1
+    },
+    "Phelps Ave": {
+        "Robbery": 1
+    },
+    "Townsend St": {
+        "Aggravated Assault": 1
+    },
+    "Alexander St": {
+        "Aggravated Assault": 1
+    },
+    "Paterson St": {
+        "Burglary": 2
+    },
+    "Regency Manor Dr": {
+        "Aggravated Assault": 1
+    },
+    "Livingston Ave": {
+        "Burglary": 2
+    },
+    "Seaman St": {
+        "Burglary": 1
+    },
+    "Morris St": {
+        "Burglary": 1
+    },
+    "Hale St": {
+        "Burglary": 3
+    },
+    "Suydam St": {
+        "Simple Assault": 1
+    },
+    "Delavan St": {
+        "Simple Assault": 1
+    },
+    "Wall St": {
+        "Simple Assault": 1
+    },
+    "Hassart St": {
+        "Simple Assault": 1
+    },
+    "George St": {
+        "Aggravated Assault": 1,
+        "Burglary": 1,
+        "Simple Assault": 1
+    },
+    "Us Rte": {
+        "Aggravated Assault": 1
+    },
+    "Comstock St": {
+        "Burglary": 1
+    }
+}
