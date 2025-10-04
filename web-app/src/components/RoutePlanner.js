@@ -195,7 +195,7 @@ export default function RoutePlanner({ onRouteCalculated, onClearRoute }) {
                 <div className="flex items-center space-x-2">
                   <Clock className="h-4 w-4 text-green-600" />
                   <div>
-                    <p className="text-xs text-green-600 font-medium">Duration</p>
+                    <p className="text-xs text-green-600 font-medium">Walk Time</p>
                     <p className="text-sm font-semibold text-green-900">{routeInfo.duration}</p>
                   </div>
                 </div>
