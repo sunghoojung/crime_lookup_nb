@@ -11,7 +11,7 @@ export default function Home() {
   const [filteredCrimes, setFilteredCrimes] = useState([]);
   const [selectedCrime, setSelectedCrime] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
-  const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
+  const [routeData, setRouteData] = useState(null);
 
   useEffect(() => {
     const processedData = processCrimeData();
@@ -28,6 +28,14 @@ export default function Home() {
     setFilteredCrimes(filtered);
   }, []);
 
+  const handleRouteCalculated = useCallback((route) => {
+    setRouteData(route);
+  }, []);
+
+  const handleClearRoute = useCallback(() => {
+    setRouteData(null);
+  }, []);
+
   if (isLoading) {
     return (
       <div className="flex items-center justify-center h-screen bg-gray-100">
@@ -40,47 +48,17 @@ export default function Home() {
   }
 
   return (
-    <div className="relative flex h-[calc(100vh-64px)] overflow-hidden">
-      {/* Expand tab (shown only when collapsed) */}
-      {sidebarCollapsed && (
-        <button
-          aria-label="Expand sidebar"
-          onClick={() => setSidebarCollapsed(false)}
-          className="absolute left-2 top-4 z-30 rounded-full bg-slate-900 text-white p-1 shadow ring-1 ring-black/10 hover:opacity-90"
-          title="Show sidebar"
-        >
-          <ChevronRight className="w-4 h-4" />
-        </button>
-      )}
-
+    <div className="relative flex h-full overflow-hidden">
       {/* Sidebar */}
-      <div
-        className={[
-          'relative flex-shrink-0 border-r bg-white transition-[width] duration-300 ease-in-out overflow-hidden',
-          sidebarCollapsed ? 'w-0' : 'w-full md:w-96 lg:w-[420px]',
-        ].join(' ')}
-      >
-        {/* Collapse button floating over the sidebar edge */}
-        {!sidebarCollapsed && (
-          <button
-            aria-label="Collapse sidebar"
-            onClick={() => setSidebarCollapsed(true)}
-            className="absolute right-2 top-4 z-30 rounded-full bg-slate-900 text-white p-1 shadow ring-1 ring-black/10 hover:opacity-90"            
-            title="Hide sidebar"
-          >
-            <X className="w-4 h-4" />
-          </button>
-        )}
-
-        {/* Keep Sidebar mounted so filters/state persist */}
-        <div className={sidebarCollapsed ? 'pointer-events-none opacity-0' : 'opacity-100'}>
-          <Sidebar
-            crimes={crimes}
-            selectedCrime={selectedCrime}
-            onCrimeSelect={handleCrimeSelect}
-            onFilteredCrimesChange={handleFilteredCrimesChange}
-          />
-        </div>
+      <div className="w-full md:w-96 lg:w-[420px] flex-shrink-0 border-r">
+        <Sidebar
+          crimes={crimes}
+          selectedCrime={selectedCrime}
+          onCrimeSelect={handleCrimeSelect}
+          onFilteredCrimesChange={handleFilteredCrimesChange}
+          onRouteCalculated={handleRouteCalculated}
+          onClearRoute={handleClearRoute}
+        />
       </div>
 
       {/* Map */}
@@ -89,6 +67,7 @@ export default function Home() {
           crimes={filteredCrimes}
           selectedCrime={selectedCrime}
           onCrimeSelect={handleCrimeSelect}
+          routeData={routeData}
         />
       </div>
     </div>

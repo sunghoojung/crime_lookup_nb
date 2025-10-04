@@ -684,19 +684,5 @@
         "time": "10/03/2025 17:05",
         "location": "George St",
         "category": "Robbery"
-    },
-    {
-        "type": "Aggravated Assault",
-        "record_id": "25NB82312-1",
-        "time": "10/03/2025 17:06",
-        "location": "George St",
-        "category": "Aggravated Assault"
-    },
-    {
-        "type": "Murder Knowingly",
-        "record_id": "25NB67684-1",
-        "time": "10/03/2025 17:07",
-        "location": "George St",
-        "category": "Murder"
     }
 ]

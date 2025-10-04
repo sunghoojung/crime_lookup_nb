@@ -56,7 +56,7 @@ const loadGoogleMaps = async () => {
   return mapsPromise;
 };
 
-export default function Map({ crimes, selectedCrime, onCrimeSelect }) {
+export default function Map({ crimes, selectedCrime, onCrimeSelect, routeData }) {
   const mapRef = useRef(null);
   const [map, setMap] = useState(null);
   const [geocoder, setGeocoder] = useState(null);
@@ -66,6 +66,8 @@ export default function Map({ crimes, selectedCrime, onCrimeSelect }) {
   const [error, setError] = useState(null);
   const [retryCount, setRetryCount] = useState(0);
   const infoWindowRef = useRef(null);
+  const routePolylineRef = useRef(null); // Track route polyline
+  const routeMarkersRef = useRef([]); // Track start/end markers for route
 
   // Initialize Google Maps
   useEffect(() => {
@@ -319,6 +321,112 @@ export default function Map({ crimes, selectedCrime, onCrimeSelect }) {
       google.maps.event.trigger(marker, 'click');
     }
   }, [selectedCrime, map, geocodedCrimes]); // Removed markers from dependencies, using ref instead
+
+  // Handle route rendering
+  useEffect(() => {
+    if (!map || !window.google) return;
+
+    // Clear existing route
+    if (routePolylineRef.current) {
+      routePolylineRef.current.setMap(null);
+      routePolylineRef.current = null;
+    }
+
+    // Clear existing route markers
+    routeMarkersRef.current.forEach(marker => marker.setMap(null));
+    routeMarkersRef.current = [];
+
+    // If no route data, return
+    if (!routeData || !routeData.path) return;
+
+    // Create the polyline path
+    const pathCoordinates = routeData.path.map(point => ({
+      lat: point.lat,
+      lng: point.lon
+    }));
+
+    // Create the polyline
+    const routePolyline = new google.maps.Polyline({
+      path: pathCoordinates,
+      geodesic: true,
+      strokeColor: '#4285F4',
+      strokeOpacity: 0.8,
+      strokeWeight: 4,
+      zIndex: 1000 // Ensure it appears above other elements
+    });
+
+    routePolyline.setMap(map);
+    routePolylineRef.current = routePolyline;
+
+    // Add start marker
+    if (pathCoordinates.length > 0) {
+      const startMarker = new google.maps.Marker({
+        position: pathCoordinates[0],
+        map: map,
+        title: routeData.from || 'Start',
+        icon: {
+          path: google.maps.SymbolPath.CIRCLE,
+          fillColor: '#4CAF50',
+          fillOpacity: 1,
+          strokeColor: '#ffffff',
+          strokeWeight: 2,
+          scale: 8
+        },
+        zIndex: 1001
+      });
+
+      // Add info window for start marker
+      const startInfoWindow = new google.maps.InfoWindow({
+        content: `<div class="p-2"><strong>Start:</strong> ${routeData.from || 'Starting point'}</div>`
+      });
+
+      startMarker.addListener('click', () => {
+        startInfoWindow.open(map, startMarker);
+      });
+
+      routeMarkersRef.current.push(startMarker);
+    }
+
+    // Add end marker
+    if (pathCoordinates.length > 1) {
+      const endMarker = new google.maps.Marker({
+        position: pathCoordinates[pathCoordinates.length - 1],
+        map: map,
+        title: routeData.to || 'End',
+        icon: {
+          path: google.maps.SymbolPath.CIRCLE,
+          fillColor: '#F44336',
+          fillOpacity: 1,
+          strokeColor: '#ffffff',
+          strokeWeight: 2,
+          scale: 8
+        },
+        zIndex: 1001
+      });
+
+      // Add info window for end marker
+      const endInfoWindow = new google.maps.InfoWindow({
+        content: `<div class="p-2"><strong>End:</strong> ${routeData.to || 'Destination'}</div>`
+      });
+
+      endMarker.addListener('click', () => {
+        endInfoWindow.open(map, endMarker);
+      });
+
+      routeMarkersRef.current.push(endMarker);
+    }
+
+    // Fit map to show entire route
+    if (pathCoordinates.length > 0) {
+      const bounds = new google.maps.LatLngBounds();
+      pathCoordinates.forEach(coord => bounds.extend(coord));
+      map.fitBounds(bounds);
+
+      // Add some padding
+      const padding = { top: 50, right: 50, bottom: 50, left: 50 };
+      map.fitBounds(bounds, padding);
+    }
+  }, [routeData, map]);
 
   // Handle retry
   const handleRetry = () => {
