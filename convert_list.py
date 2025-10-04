@@ -2,6 +2,35 @@ from bs4 import BeautifulSoup
 import json
 import re
 
+def clean_type(type_str: str) -> str:
+    """
+    Keeps only the part after '::' in a type string, removes punctuation,
+    and converts it to title case.
+    
+    Examples:
+      "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle." -> "Burglary By Entering Motor Vehicle"
+      "39:4-50 DUI::Driving Under The Influence" -> "Driving Under The Influence"
+      "ASSAULT::SIMPLE" -> "Simple"
+    """
+    if not type_str:
+        return ""
+
+    # Keep only the part after the last '::' if it exists
+    if "::" in type_str:
+        type_str = type_str.split("::")[-1]
+
+    # Remove trailing punctuation (e.g., periods)
+    type_str = re.sub(r'[^\w\s]', '', type_str)
+
+    # Normalize whitespace
+    type_str = re.sub(r'\s+', ' ', type_str).strip()
+
+    # Convert to title case
+    type_str = type_str.title()
+
+    return type_str
+
+
 def clean_location(location: str) -> str:
     """
     Cleans a location string to keep only the street name.
@@ -53,6 +82,7 @@ for row in rows[1:]:
 
     # Extract and clean data
     crime_type_raw = cells[0].get_text(strip=True)
+    crime_type_raw = clean_type(crime_type_raw)
     record_id = cells[1].get_text(strip=True)
     time = cells[2].get_text(strip=True)
     location = cells[3].get_text(strip=True)
