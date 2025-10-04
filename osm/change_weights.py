@@ -64,7 +64,7 @@ df["crime_score"] = df["name"].apply(match_crime_score)
 # -------------------------------
 # 6. Scale the length directly
 # -------------------------------
-scale_factor = 0.05  # +5% per weighted crime unit
+scale_factor = 0.5  # +20% per weighted crime unit
 df["length"] = df["length"] * (1 + scale_factor * df["crime_score"])
 
 # -------------------------------
