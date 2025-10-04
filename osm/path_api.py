@@ -10,7 +10,7 @@ import uvicorn
 # -------------------------------
 # 1. Load weighted road edges once
 # -------------------------------
-edges_path = "osm/newbrunswick_edges_weighted.csv"
+edges_path = os.path.join(os.getcwd(), "osm", "newbrunswick_edges_weighted.csv")
 
 df = pd.read_csv(edges_path)
 df["geometry"] = df["geometry"].apply(wkt.loads)
