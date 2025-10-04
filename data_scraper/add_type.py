@@ -5,7 +5,7 @@ with open(filename, 'r') as file:
     # Load the JSON data into a Python dictionary
     data = json.load(file)
 
-categories = ["Robbery","Arson","Simple Assualt","Aggravated Assault","Murder","Burgulary","Shooting"]
+categories = ["Robbery","Arson","Simple Assault","Aggravated Assault","Murder","Burglary","Shooting"]
 ans = []
 for i in range(len(data)):
     my_dict = data[i]

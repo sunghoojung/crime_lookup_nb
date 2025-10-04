@@ -1,10 +1,115 @@
 [
     {
+        "type": "Burglary By Entering Motor Vehicle",
+        "record_id": "25NB06768-1",
+        "time": "08/31/2025 22:27",
+        "location": "Central Ave",
+        "category": "Burglary"
+    },
+    {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB06788-1",
+        "time": "09/01/2025 12:08",
+        "location": "Paul Robeson Blvd",
+        "category": "Simple Assault"
+    },
+    {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB06793-1",
+        "time": "09/01/2025 15:57",
+        "location": "Sandford St",
+        "category": "Simple Assault"
+    },
+    {
         "type": "Aggravated Assault",
         "record_id": "25NB06804-1",
         "time": "09/01/2025 23:09",
         "location": "Paul Robeson Blvd",
         "category": "Aggravated Assault"
+    },
+    {
+        "type": "Burglary By Entering Motor Vehicle",
+        "record_id": "25NB06812-1",
+        "time": "09/02/2025 07:53",
+        "location": "Somerset St",
+        "category": "Burglary"
+    },
+    {
+        "type": "Burglary By Entering Motor Vehicle",
+        "record_id": "25NB06819-1",
+        "time": "09/02/2025 13:03",
+        "location": "Senior St",
+        "category": "Burglary"
+    },
+    {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB06827-2",
+        "time": "09/02/2025 15:44",
+        "location": "Handy St",
+        "category": "Simple Assault"
+    },
+    {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB06813-1",
+        "time": "09/02/2025 08:33",
+        "location": "Church St",
+        "category": "Simple Assault"
+    },
+    {
+        "type": "Burglary By Entering Structure",
+        "record_id": "25NB06860-1",
+        "time": "09/03/2025 20:00",
+        "location": "French St",
+        "category": "Burglary"
+    },
+    {
+        "type": "Burglary By Entering Structure",
+        "record_id": "25NB06864-1",
+        "time": "09/04/2025 05:26",
+        "location": "Remsen Ave",
+        "category": "Burglary"
+    },
+    {
+        "type": "Burglary By Entering Structure",
+        "record_id": "25NB06890-1",
+        "time": "09/04/2025 15:04",
+        "location": "Louis St",
+        "category": "Burglary"
+    },
+    {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB06921-1",
+        "time": "09/06/2025 02:34",
+        "location": "Robert Wood Johnson Pl",
+        "category": "Simple Assault"
+    },
+    {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB06939-1",
+        "time": "09/06/2025 17:57",
+        "location": "Kirkpatrick St",
+        "category": "Simple Assault"
+    },
+    {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB06927-1",
+        "time": "09/06/2025 07:33",
+        "location": "Jersey Ave",
+        "category": "Simple Assault"
+    },
+    {
+        "type": "Burglary By Entering Structure",
+        "record_id": "25NB06948-1",
+        "time": "09/07/2025 07:03",
+        "location": "Richardson St",
+        "category": "Burglary"
+    },
+    {
+        "type": "Burglary By Entering Motor Vehicle",
+        "record_id": "25NB06951-1",
+        "time": "09/07/2025 09:41",
+        "location": "Somerset St",
+        "category": "Burglary"
     },
     {
         "type": "Aggravated Assault With Weapon",
@@ -14,11 +119,67 @@
         "category": "Aggravated Assault"
     },
     {
+        "type": "Burglary By Entering Motor Vehicle",
+        "record_id": "25NB06960-1",
+        "time": "09/07/2025 17:18",
+        "location": "Remsen Ave",
+        "category": "Burglary"
+    },
+    {
+        "type": "Burglary By Entering Structure",
+        "record_id": "25NB06967-1",
+        "time": "09/08/2025 03:09",
+        "location": "Lawrence St",
+        "category": "Burglary"
+    },
+    {
         "type": "Aggravated Assault",
         "record_id": "25NB06974-1",
         "time": "09/08/2025 11:52",
         "location": "Ellen St",
         "category": "Aggravated Assault"
+    },
+    {
+        "type": "Burglary By Entering Motor Vehicle",
+        "record_id": "25NB07230-1",
+        "time": "09/08/2025 09:40",
+        "location": "Spring St",
+        "category": "Burglary"
+    },
+    {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB07012-1",
+        "time": "09/09/2025 18:41",
+        "location": "Roosevelt Ave",
+        "category": "Simple Assault"
+    },
+    {
+        "type": "Burglary By Entering Structure",
+        "record_id": "25NB07029-1",
+        "time": "09/10/2025 09:54",
+        "location": "Woodbridge St",
+        "category": "Burglary"
+    },
+    {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB07026-1",
+        "time": "09/10/2025 08:12",
+        "location": "State Hwy",
+        "category": "Simple Assault"
+    },
+    {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB07058-1",
+        "time": "09/11/2025 03:53",
+        "location": "Hoffman Blvd",
+        "category": "Simple Assault"
+    },
+    {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB07078-1",
+        "time": "09/11/2025 18:10",
+        "location": "Joyce Kilmer Ave",
+        "category": "Simple Assault"
     },
     {
         "type": "Aggravated Assault",
@@ -28,6 +189,13 @@
         "category": "Aggravated Assault"
     },
     {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB07077-2",
+        "time": "09/11/2025 16:52",
+        "location": "Easton Ave",
+        "category": "Simple Assault"
+    },
+    {
         "type": "Murder Purposely",
         "record_id": "25NB07073-4",
         "time": "09/11/2025 14:05",
@@ -35,11 +203,32 @@
         "category": "Murder"
     },
     {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB07100-1",
+        "time": "09/12/2025 12:56",
+        "location": "Brookside Ave",
+        "category": "Simple Assault"
+    },
+    {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB07101-1",
+        "time": "09/12/2025 13:06",
+        "location": "Hamilton St",
+        "category": "Simple Assault"
+    },
+    {
         "type": "Aggravated Assault",
         "record_id": "25NB07127-1",
         "time": "09/13/2025 06:58",
         "location": "Harvey St",
         "category": "Aggravated Assault"
+    },
+    {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB07149-1",
+        "time": "09/13/2025 22:52",
+        "location": "Lufberry Ave",
+        "category": "Simple Assault"
     },
     {
         "type": "Arsonbldgstruct",
@@ -56,11 +245,39 @@
         "category": "Arson"
     },
     {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB07172-1",
+        "time": "09/14/2025 20:36",
+        "location": "S Ward St",
+        "category": "Simple Assault"
+    },
+    {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB07190-1",
+        "time": "09/15/2025 11:23",
+        "location": "Easton Ave",
+        "category": "Simple Assault"
+    },
+    {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB07197-1",
+        "time": "09/15/2025 14:20",
+        "location": "Joyce Kilmer Ave",
+        "category": "Simple Assault"
+    },
+    {
         "type": "Robbery By Injury Threat",
         "record_id": "25NB07189-1",
         "time": "09/15/2025 11:11",
         "location": "James St",
         "category": "Robbery"
+    },
+    {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB07243-1",
+        "time": "09/16/2025 14:04",
+        "location": "Somerset St",
+        "category": "Simple Assault"
     },
     {
         "type": "Aggravated Assault With Weapon",
@@ -70,11 +287,39 @@
         "category": "Aggravated Assault"
     },
     {
+        "type": "Burglary By Entering Motor Vehicle",
+        "record_id": "25NB07253-1",
+        "time": "09/17/2025 04:14",
+        "location": "Bethany St",
+        "category": "Burglary"
+    },
+    {
+        "type": "Burglary By Entering Motor Vehicle",
+        "record_id": "25NB07277-1",
+        "time": "09/18/2025 08:19",
+        "location": "Easton Ave",
+        "category": "Burglary"
+    },
+    {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB07278-1",
+        "time": "09/18/2025 08:26",
+        "location": "Powers St",
+        "category": "Simple Assault"
+    },
+    {
         "type": "Robbery By Force",
         "record_id": "25NB07289-1",
         "time": "09/18/2025 11:09",
         "location": "Jersey Ave",
         "category": "Robbery"
+    },
+    {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB07303-1",
+        "time": "09/18/2025 14:48",
+        "location": "Edpas Rd",
+        "category": "Simple Assault"
     },
     {
         "type": "Aggravated Assault With Weapon",
@@ -84,11 +329,46 @@
         "category": "Aggravated Assault"
     },
     {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB07330-2",
+        "time": "09/19/2025 11:49",
+        "location": "Louis St",
+        "category": "Simple Assault"
+    },
+    {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB07338-1",
+        "time": "09/19/2025 19:21",
+        "location": "Robert Wood Johnson Pl",
+        "category": "Simple Assault"
+    },
+    {
         "type": "Robbery By Force",
         "record_id": "25NB07344-1",
         "time": "09/19/2025 20:56",
         "location": "Remsen Ave",
         "category": "Robbery"
+    },
+    {
+        "type": "Burglary By Entering Motor Vehicle",
+        "record_id": "25NB07349-1",
+        "time": "09/20/2025 04:45",
+        "location": "Dennis St",
+        "category": "Burglary"
+    },
+    {
+        "type": "Burglary By Entering Structure",
+        "record_id": "25NB07373-2",
+        "time": "09/20/2025 23:39",
+        "location": "Guilden St",
+        "category": "Burglary"
+    },
+    {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB07386-1",
+        "time": "09/21/2025 13:07",
+        "location": "Lawrence St",
+        "category": "Simple Assault"
     },
     {
         "type": "Robbery By Force",
@@ -105,11 +385,60 @@
         "category": "Aggravated Assault"
     },
     {
+        "type": "Burglary By Entering Motor Vehicle",
+        "record_id": "25NB07390-1",
+        "time": "09/22/2025 01:24",
+        "location": "Lufberry Ave",
+        "category": "Burglary"
+    },
+    {
+        "type": "Burglary By Entering Structure",
+        "record_id": "25NB07419-2",
+        "time": "09/22/2025 22:03",
+        "location": "Powers St",
+        "category": "Burglary"
+    },
+    {
         "type": "Aggravated Assaultrecklessly Cause Injury With Weapon",
         "record_id": "25NB07404-1",
         "time": "09/22/2025 11:08",
         "location": "Alexander St",
         "category": "Aggravated Assault"
+    },
+    {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB07433-3",
+        "time": "09/23/2025 08:20",
+        "location": "Roosevelt Ave",
+        "category": "Simple Assault"
+    },
+    {
+        "type": "Burglary By Entering Motor Vehicle",
+        "record_id": "25NB07439-1",
+        "time": "09/23/2025 10:02",
+        "location": "Lawrence St",
+        "category": "Burglary"
+    },
+    {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB07452-1",
+        "time": "09/23/2025 14:50",
+        "location": "Somerset St",
+        "category": "Simple Assault"
+    },
+    {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB07514-1",
+        "time": "09/25/2025 17:10",
+        "location": "French St",
+        "category": "Simple Assault"
+    },
+    {
+        "type": "Burglary By Entering Structure",
+        "record_id": "25NB07519-1",
+        "time": "09/25/2025 22:17",
+        "location": "Paterson St",
+        "category": "Burglary"
     },
     {
         "type": "Aggravated Assault",
@@ -119,6 +448,48 @@
         "category": "Aggravated Assault"
     },
     {
+        "type": "Burglary By Entering Structure",
+        "record_id": "25NB07521-1",
+        "time": "09/26/2025 03:07",
+        "location": "Livingston Ave",
+        "category": "Burglary"
+    },
+    {
+        "type": "Burglary By Entering Motor Vehicle",
+        "record_id": "25NB07522-1",
+        "time": "09/26/2025 02:48",
+        "location": "Seaman St",
+        "category": "Burglary"
+    },
+    {
+        "type": "Burglary By Entering Motor Vehicle",
+        "record_id": "25NB07532-1",
+        "time": "09/26/2025 06:33",
+        "location": "Morris St",
+        "category": "Burglary"
+    },
+    {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB07552-1",
+        "time": "09/26/2025 15:52",
+        "location": "Us Hwy 1 N",
+        "category": "Simple Assault"
+    },
+    {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB07556-1",
+        "time": "09/26/2025 17:33",
+        "location": "Us Hwy 1 N",
+        "category": "Simple Assault"
+    },
+    {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB07560-1",
+        "time": "09/26/2025 22:20",
+        "location": "French St",
+        "category": "Simple Assault"
+    },
+    {
         "type": "Aggravated Assault With Weapon",
         "record_id": "25NB07562-1",
         "time": "09/26/2025 22:23",
@@ -126,11 +497,95 @@
         "category": "Aggravated Assault"
     },
     {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB07563-1",
+        "time": "09/26/2025 23:01",
+        "location": "Sandford St",
+        "category": "Simple Assault"
+    },
+    {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB07555-1",
+        "time": "09/26/2025 17:05",
+        "location": "Louis St",
+        "category": "Simple Assault"
+    },
+    {
+        "type": "Burglary By Entering Structure",
+        "record_id": "25NB07566-1",
+        "time": "09/27/2025 03:12",
+        "location": "Paterson St",
+        "category": "Burglary"
+    },
+    {
+        "type": "Burglary By Entering Motor Vehicle",
+        "record_id": "25NB07567-1",
+        "time": "09/27/2025 04:28",
+        "location": "Sandford St",
+        "category": "Burglary"
+    },
+    {
+        "type": "Burglary By Entering Structure",
+        "record_id": "25NB07571-1",
+        "time": "09/27/2025 09:56",
+        "location": "Hale St",
+        "category": "Burglary"
+    },
+    {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB07572-1",
+        "time": "09/27/2025 09:50",
+        "location": "Suydam St",
+        "category": "Simple Assault"
+    },
+    {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB07582-1",
+        "time": "09/27/2025 20:55",
+        "location": "Delavan St",
+        "category": "Simple Assault"
+    },
+    {
         "type": "Aggravated Assault With Weapon",
         "record_id": "25NB07585-1",
         "time": "09/28/2025 00:13",
         "location": "Hamilton St",
         "category": "Aggravated Assault"
+    },
+    {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB07600-1",
+        "time": "09/28/2025 15:37",
+        "location": "Wall St",
+        "category": "Simple Assault"
+    },
+    {
+        "type": "Burglary By Entering Motor Vehicle",
+        "record_id": "25NB07604-1",
+        "time": "09/28/2025 17:12",
+        "location": "Hale St",
+        "category": "Burglary"
+    },
+    {
+        "type": "Burglary By Entering Structure",
+        "record_id": "25NB07609-1",
+        "time": "09/28/2025 08:00",
+        "location": "Hale St",
+        "category": "Burglary"
+    },
+    {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB07622-1",
+        "time": "09/29/2025 20:05",
+        "location": "Easton Ave",
+        "category": "Simple Assault"
+    },
+    {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB07611-1",
+        "time": "09/29/2025 06:49",
+        "location": "Hassart St",
+        "category": "Simple Assault"
     },
     {
         "type": "Aggravated Assault",
@@ -145,5 +600,47 @@
         "time": "09/30/2025 05:09",
         "location": "Us Rte",
         "category": "Aggravated Assault"
+    },
+    {
+        "type": "Burglary By Entering Motor Vehicle",
+        "record_id": "25NB07637-1",
+        "time": "09/30/2025 10:38",
+        "location": "Somerset St",
+        "category": "Burglary"
+    },
+    {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB07715-1",
+        "time": "09/30/2025 23:00",
+        "location": "Somerset St",
+        "category": "Simple Assault"
+    },
+    {
+        "type": "Burglary By Entering Structure",
+        "record_id": "25NB07666-1",
+        "time": "10/01/2025 14:39",
+        "location": "George St",
+        "category": "Burglary"
+    },
+    {
+        "type": "Burglary By Entering Motor Vehicle",
+        "record_id": "25NB07681-1",
+        "time": "10/02/2025 07:23",
+        "location": "Comstock St",
+        "category": "Burglary"
+    },
+    {
+        "type": "Simple Assault Bodily Injury",
+        "record_id": "25NB07706-1",
+        "time": "10/03/2025 00:22",
+        "location": "George St",
+        "category": "Simple Assault"
+    },
+    {
+        "type": "Burglary By Entering Motor Vehicle",
+        "record_id": "25NB07739-1",
+        "time": "10/03/2025 09:14",
+        "location": "Livingston Ave",
+        "category": "Burglary"
     }
 ]
