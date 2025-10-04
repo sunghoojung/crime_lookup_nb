@@ -1,0 +1,149 @@
+[
+    {
+        "type": "Aggravated Assault",
+        "record_id": "25NB06804-1",
+        "time": "09/01/2025 23:09",
+        "location": "Paul Robeson Blvd",
+        "category": "Aggravated Assault"
+    },
+    {
+        "type": "Aggravated Assault With Weapon",
+        "record_id": "25NB06953-1",
+        "time": "09/07/2025 09:39",
+        "location": "Us Hwy 1 N",
+        "category": "Aggravated Assault"
+    },
+    {
+        "type": "Aggravated Assault",
+        "record_id": "25NB06974-1",
+        "time": "09/08/2025 11:52",
+        "location": "Ellen St",
+        "category": "Aggravated Assault"
+    },
+    {
+        "type": "Aggravated Assault",
+        "record_id": "25NB07073-1",
+        "time": "09/11/2025 14:05",
+        "location": "Remsen Ave",
+        "category": "Aggravated Assault"
+    },
+    {
+        "type": "Murder Purposely",
+        "record_id": "25NB07073-4",
+        "time": "09/11/2025 14:05",
+        "location": "Remsen Ave",
+        "category": "Murder"
+    },
+    {
+        "type": "Aggravated Assault",
+        "record_id": "25NB07127-1",
+        "time": "09/13/2025 06:58",
+        "location": "Harvey St",
+        "category": "Aggravated Assault"
+    },
+    {
+        "type": "Arsonbldgstruct",
+        "record_id": "25NB07162-1",
+        "time": "09/14/2025 14:52",
+        "location": "Remsen Ave",
+        "category": "Arson"
+    },
+    {
+        "type": "Arsonbldgstruct",
+        "record_id": "25NB07164-1",
+        "time": "09/14/2025 15:11",
+        "location": "Sandford St",
+        "category": "Arson"
+    },
+    {
+        "type": "Robbery By Injury Threat",
+        "record_id": "25NB07189-1",
+        "time": "09/15/2025 11:11",
+        "location": "James St",
+        "category": "Robbery"
+    },
+    {
+        "type": "Aggravated Assault With Weapon",
+        "record_id": "25NB07249-1",
+        "time": "09/16/2025 18:50",
+        "location": "French St",
+        "category": "Aggravated Assault"
+    },
+    {
+        "type": "Robbery By Force",
+        "record_id": "25NB07289-1",
+        "time": "09/18/2025 11:09",
+        "location": "Jersey Ave",
+        "category": "Robbery"
+    },
+    {
+        "type": "Aggravated Assault With Weapon",
+        "record_id": "25NB07330-1",
+        "time": "09/19/2025 11:49",
+        "location": "Louis St",
+        "category": "Aggravated Assault"
+    },
+    {
+        "type": "Robbery By Force",
+        "record_id": "25NB07344-1",
+        "time": "09/19/2025 20:56",
+        "location": "Remsen Ave",
+        "category": "Robbery"
+    },
+    {
+        "type": "Robbery By Force",
+        "record_id": "25NB07389-2",
+        "time": "09/21/2025 18:30",
+        "location": "Phelps Ave",
+        "category": "Robbery"
+    },
+    {
+        "type": "Aggravated Assault With Weapon",
+        "record_id": "25NB07377-1",
+        "time": "09/21/2025 08:29",
+        "location": "Townsend St",
+        "category": "Aggravated Assault"
+    },
+    {
+        "type": "Aggravated Assaultrecklessly Cause Injury With Weapon",
+        "record_id": "25NB07404-1",
+        "time": "09/22/2025 11:08",
+        "location": "Alexander St",
+        "category": "Aggravated Assault"
+    },
+    {
+        "type": "Aggravated Assault",
+        "record_id": "25NB07494-1",
+        "time": "09/25/2025 03:52",
+        "location": "Regency Manor Dr",
+        "category": "Aggravated Assault"
+    },
+    {
+        "type": "Aggravated Assault With Weapon",
+        "record_id": "25NB07562-1",
+        "time": "09/26/2025 22:23",
+        "location": "Us Hwy 1 N",
+        "category": "Aggravated Assault"
+    },
+    {
+        "type": "Aggravated Assault With Weapon",
+        "record_id": "25NB07585-1",
+        "time": "09/28/2025 00:13",
+        "location": "Hamilton St",
+        "category": "Aggravated Assault"
+    },
+    {
+        "type": "Aggravated Assault",
+        "record_id": "25NB07623-1",
+        "time": "09/29/2025 21:39",
+        "location": "George St",
+        "category": "Aggravated Assault"
+    },
+    {
+        "type": "Aggravated Assault",
+        "record_id": "25NB07627-1",
+        "time": "09/30/2025 05:09",
+        "location": "Us Rte",
+        "category": "Aggravated Assault"
+    }
+]
