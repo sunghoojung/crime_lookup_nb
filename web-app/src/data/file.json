@@ -698,5 +698,12 @@
         "time": "10/03/2025 17:07",
         "location": "George St",
         "category": "Murder"
+    },
+    {
+        "type": "Shooting With Injuries",
+        "record_id": "25NB13145-1",
+        "time": "10/03/2025 19:21",
+        "location": "George St",
+        "category": "Shooting with Injuries"
     }
 ]
