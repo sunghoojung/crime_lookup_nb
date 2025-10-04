@@ -1,0 +1,2156 @@
+[
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB04508-1",
+    "time": "06/11/2025 06:41",
+    "location": "00 block of Chester CIR"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB04515-1",
+    "time": "06/11/2025 08:47",
+    "location": "00 block of SUYDAM ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB04519-1",
+    "time": "06/11/2025 12:44",
+    "location": "00 block of Us Hwy 1 N ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB04527-1",
+    "time": "06/11/2025 17:37",
+    "location": "00 block of Jersey AVE"
+  },
+  {
+    "type": "2C:12-1A(2)::SIMPLE ASSAULT W/DEADLY WEAPON - BODILY INJURY",
+    "record_id": "25NB04532-1",
+    "time": "06/11/2025 18:18",
+    "location": "00 block of LIVINGSTON AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB04512-1",
+    "time": "06/11/2025 08:53",
+    "location": "300 block of George ST"
+  },
+  {
+    "type": "2C:12-1B(2)::AGGRAVATED ASSAULT WITH WEAPON",
+    "record_id": "25NB04573-1",
+    "time": "06/12/2025 18:15",
+    "location": "Hamilton ST ,NEW BRUNSWICK ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB04542-1",
+    "time": "06/12/2025 07:33",
+    "location": "remsen AVE ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1B(5)(C) 13B::ASSAULT ON MEDICAL SERVICES - BODILY INJURY",
+    "record_id": "25NB04583-1",
+    "time": "06/13/2025 06:23",
+    "location": "00 block of Robert Wood Johnson PL"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB04600-1",
+    "time": "06/13/2025 14:45",
+    "location": "200 block of Delavan ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB04604-1",
+    "time": "06/13/2025 16:48",
+    "location": "200 block of French ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB04588-1",
+    "time": "06/13/2025 09:53",
+    "location": "200 block of Baldwin ST"
+  },
+  {
+    "type": "2C:12-1B(2)::AGGRAVATED ASSAULT WITH WEAPON",
+    "record_id": "25NB04594-1",
+    "time": "06/13/2025 10:59",
+    "location": "Townsend ST ,NEW BRUNSWICK ,NJ ,08901"
+  },
+  {
+    "type": "2C:15-1A(1)::ROBBERY BY FORCE",
+    "record_id": "25NB04626-1",
+    "time": "06/14/2025 17:28",
+    "location": "00 block of COMSTOCK ST"
+  },
+  {
+    "type": "2C:15-1A(2)::ROBBERY BY INJURY THREAT",
+    "record_id": "25NB04630-1",
+    "time": "06/14/2025 20:18",
+    "location": "100 block of Paul Robeson BLVD"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB04633-1",
+    "time": "06/14/2025 23:59",
+    "location": "100 block of GEORGE ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB04616-1",
+    "time": "06/14/2025 09:48",
+    "location": "Townsend ST ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB04635-1",
+    "time": "06/15/2025 01:18",
+    "location": "200 block of Suydam ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB04640-1",
+    "time": "06/15/2025 11:43",
+    "location": "300 block of SEAMAN ST"
+  },
+  {
+    "type": "2C:12-1B(1)::AGGRAVATED ASSAULT",
+    "record_id": "25NB04648-1",
+    "time": "06/15/2025 15:42",
+    "location": "Throop AVE ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1B(13)::STRANGULATION-DOMESTIC VIOLENCE ASSAULT",
+    "record_id": "25NB04652-1",
+    "time": "06/15/2025 17:13",
+    "location": "300 block of Seaman ST"
+  },
+  {
+    "type": "2C:15-1A(2)::ROBBERY BY INJURY THREAT",
+    "record_id": "25NB04661-1",
+    "time": "06/15/2025 11:45",
+    "location": "George ST ,NEW BRUNSWICK ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB04672-1",
+    "time": "06/16/2025 10:48",
+    "location": "00 block of Neilson ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB04680-4",
+    "time": "06/16/2025 13:35",
+    "location": "00 block of Hampton RD"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB04677-1",
+    "time": "06/16/2025 12:22",
+    "location": "00 block of Welton ST"
+  },
+  {
+    "type": "2C:15-1A(1)::ROBBERY BY FORCE",
+    "record_id": "25NB07030-1",
+    "time": "06/16/2025 19:59",
+    "location": "100 block of French ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB04705-1",
+    "time": "06/17/2025 16:05",
+    "location": "00 block of Simplex AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB04739-1",
+    "time": "06/17/2025 20:19",
+    "location": "100 block of REMSEN AVE"
+  },
+  {
+    "type": "2C:12-1B(1)::AGGRAVATED ASSAULT",
+    "record_id": "25NB04692-1",
+    "time": "06/17/2025 08:15",
+    "location": "300 block of George ST"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB04740-1",
+    "time": "06/19/2025 01:15",
+    "location": "100 block of Joyce Kilmer AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB04747-1",
+    "time": "06/19/2025 08:07",
+    "location": "00 block of SICARD ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB04753-1",
+    "time": "06/19/2025 08:42",
+    "location": "200 block of Somerset ST"
+  },
+  {
+    "type": "2C:12-1B(13)::STRANGULATION-DOMESTIC VIOLENCE ASSAULT",
+    "record_id": "25NB04765-1",
+    "time": "06/19/2025 17:27",
+    "location": "300 block of Suydam ST"
+  },
+  {
+    "type": "2C:12-1A::Simple Assault",
+    "record_id": "25NB04765-2",
+    "time": "06/19/2025 17:27",
+    "location": "300 block of Suydam ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB04777-1",
+    "time": "06/20/2025 07:46",
+    "location": "00 block of Lufberry AVE"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB04792-1",
+    "time": "06/20/2025 17:10",
+    "location": "00 block of STONE ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB04802-1",
+    "time": "06/21/2025 08:56",
+    "location": "Townsend ST ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB04803-1",
+    "time": "06/21/2025 09:23",
+    "location": "100 block of Easton AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB04806-1",
+    "time": "06/21/2025 12:34",
+    "location": "00 block of BAYARD ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB04810-2",
+    "time": "06/21/2025 15:32",
+    "location": "200 block of Easton AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB04831-1",
+    "time": "06/22/2025 17:44",
+    "location": "00 block of Jersey AVE"
+  },
+  {
+    "type": "2C:12-1B(5)(C) 13B::ASSAULT ON MEDICAL SERVICES - BODILY INJURY",
+    "record_id": "25NB04818-1",
+    "time": "06/22/2025 02:36",
+    "location": "00 block of Robert Wood Johnson PL"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB04818-2",
+    "time": "06/22/2025 02:36",
+    "location": "00 block of Robert Wood Johnson PL"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB04832-1",
+    "time": "06/22/2025 21:10",
+    "location": "00 block of Jersey AVE"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB04834-1",
+    "time": "06/23/2025 02:38",
+    "location": "200 block of COMSTOCK ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB04865-1",
+    "time": "06/23/2025 18:11",
+    "location": "200 block of Suydam ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB04917-1",
+    "time": "06/25/2025 16:29",
+    "location": "00 block of Pine ST"
+  },
+  {
+    "type": "2C:12-1B(1)::AGGRAVATED ASSAULT",
+    "record_id": "25NB04923-1",
+    "time": "06/26/2025 00:13",
+    "location": "Townsend ST ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB04940-1",
+    "time": "06/26/2025 13:02",
+    "location": "00 block of Kirkpatrick ST"
+  },
+  {
+    "type": "2C:12-1B(1)::AGGRAVATED ASSAULT",
+    "record_id": "25NB04934-1",
+    "time": "06/26/2025 07:51",
+    "location": "200 block of HOWARD ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB04945-1",
+    "time": "06/26/2025 17:11",
+    "location": "00 block of Plum ST"
+  },
+  {
+    "type": "2C:12-1B(2)::AGGRAVATED ASSAULT WITH WEAPON",
+    "record_id": "25NB04948-2",
+    "time": "06/26/2025 22:45",
+    "location": "100 block of French ST"
+  },
+  {
+    "type": "2C:15-1A(2)::ROBBERY BY INJURY THREAT",
+    "record_id": "25NB04951-1",
+    "time": "06/27/2025 04:31",
+    "location": "300 block of George ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB04966-1",
+    "time": "06/27/2025 18:08",
+    "location": "00 block of JOYCE KILMER AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB04998-1",
+    "time": "06/28/2025 19:53",
+    "location": "100 block of Delavan ST"
+  },
+  {
+    "type": "2C:15-1A(1)::ROBBERY BY FORCE",
+    "record_id": "25NB04999-1",
+    "time": "06/28/2025 22:00",
+    "location": "00 block of LOUIS ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05004-1",
+    "time": "06/29/2025 05:27",
+    "location": "00 block of KEMPTON AVE"
+  },
+  {
+    "type": "2C:12-1B(2)::AGGRAVATED ASSAULT WITH WEAPON",
+    "record_id": "25NB05021-1",
+    "time": "06/29/2025 19:43",
+    "location": "100 block of French ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05018-1",
+    "time": "06/29/2025 18:20",
+    "location": "00 block of Remsen AVE"
+  },
+  {
+    "type": "2C:12-1B(1)::AGGRAVATED ASSAULT",
+    "record_id": "25NB05024-1",
+    "time": "06/30/2025 00:15",
+    "location": "00 block of Robert Wood Johnson PL"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05036-1",
+    "time": "06/30/2025 08:51",
+    "location": "300 block of TOWNSEND ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05041-1",
+    "time": "06/30/2025 10:54",
+    "location": "00 block of Wirt ST"
+  },
+  {
+    "type": "2C:12-1B(2)::AGGRAVATED ASSAULT WITH WEAPON",
+    "record_id": "25NB05054-1",
+    "time": "06/30/2025 08:32",
+    "location": "400 block of EDPAS RD"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05054-2",
+    "time": "06/30/2025 08:32",
+    "location": "400 block of EDPAS RD"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05076-1",
+    "time": "07/02/2025 02:23",
+    "location": "100 block of Townsend ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05083-1",
+    "time": "07/02/2025 07:07",
+    "location": "00 block of Throop AVE"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05114-1",
+    "time": "07/02/2025 23:21",
+    "location": "00 block of Paterson ST"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB05108-1",
+    "time": "07/02/2025 19:05",
+    "location": "00 block of Remsen AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05115-1",
+    "time": "07/03/2025 02:16",
+    "location": "00 block of Us Hwy 1 N ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05136-1",
+    "time": "07/03/2025 16:23",
+    "location": "00 block of ROOSEVELT AVE"
+  },
+  {
+    "type": "2C:15-1A(1)::ROBBERY BY FORCE",
+    "record_id": "25NB05117-1",
+    "time": "07/03/2025 03:20",
+    "location": "00 block of Welton ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05141-1",
+    "time": "07/03/2025 19:54",
+    "location": "100 block of WRIGHT PL"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05142-1",
+    "time": "07/03/2025 22:23",
+    "location": "00 block of Jersey AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05157-1",
+    "time": "07/04/2025 13:59",
+    "location": "200 block of LIVINGSTON AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05165-3",
+    "time": "07/04/2025 20:14",
+    "location": "100 block of HOWARD ST"
+  },
+  {
+    "type": "2C:12-1B(4)::AGGRAVATED ASSAULT - POINTING A FIREARM",
+    "record_id": "25NB05152-1",
+    "time": "07/04/2025 11:16",
+    "location": "Prospect ST ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05184-1",
+    "time": "07/05/2025 18:53",
+    "location": "300 block of Suydam ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05189-1",
+    "time": "07/05/2025 22:14",
+    "location": "00 block of Jefferson AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05172-1",
+    "time": "07/05/2025 10:36",
+    "location": "French ST ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1B(3)::AGGRAVATED ASSAULT-RECKLESSLY CAUSE INJURY WITH WEAPON",
+    "record_id": "25NB05206-1",
+    "time": "07/06/2025 20:46",
+    "location": "00 block of Robert Wood Johnson PL"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05207-1",
+    "time": "07/06/2025 22:09",
+    "location": "00 block of Robert Wood Johnson PL"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05276-1",
+    "time": "07/09/2025 14:45",
+    "location": "00 block of LOUIS ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05261-1",
+    "time": "07/09/2025 03:02",
+    "location": "200 block of LIVINGSTON AVE"
+  },
+  {
+    "type": "2C:12-1B(2)::AGGRAVATED ASSAULT WITH WEAPON",
+    "record_id": "25NB05280-2",
+    "time": "07/09/2025 16:56",
+    "location": "500 block of N NJ 18 N ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1A(2)::SIMPLE ASSAULT W/DEADLY WEAPON - BODILY INJURY",
+    "record_id": "25NB05297-1",
+    "time": "07/09/2025 13:00",
+    "location": "Townsend ST ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05283-1",
+    "time": "07/10/2025 02:39",
+    "location": "400 block of Remsen AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05314-1",
+    "time": "07/10/2025 19:03",
+    "location": "200 block of SUYDAM ST"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB05302-1",
+    "time": "07/10/2025 11:39",
+    "location": "00 block of COBB RD"
+  },
+  {
+    "type": "2C:12-1B(1)::AGGRAVATED ASSAULT",
+    "record_id": "25NB05303-1",
+    "time": "07/10/2025 08:32",
+    "location": "00 block of HARVEY ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05329-1",
+    "time": "07/11/2025 10:34",
+    "location": "00 block of Harvey ST"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB05361-1",
+    "time": "07/11/2025 00:22",
+    "location": "200 block of Hale ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05371-1",
+    "time": "07/12/2025 18:16",
+    "location": "00 block of Harvey ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05372-2",
+    "time": "07/12/2025 18:23",
+    "location": "100 block of Suydam ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05376-1",
+    "time": "07/12/2025 22:08",
+    "location": "00 block of GATLING CT"
+  },
+  {
+    "type": "2C:12-1B(1)::AGGRAVATED ASSAULT",
+    "record_id": "25NB05377-1",
+    "time": "07/12/2025 22:45",
+    "location": "00 block of Throop AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05390-1",
+    "time": "07/13/2025 12:08",
+    "location": "State HWY ,N ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05395-2",
+    "time": "07/13/2025 14:54",
+    "location": "00 block of Juliet ST"
+  },
+  {
+    "type": "2C:12-1B(2)::AGGRAVATED ASSAULT WITH WEAPON",
+    "record_id": "25NB05401-1",
+    "time": "07/13/2025 18:52",
+    "location": "00 block of Robert Wood Johnson PL"
+  },
+  {
+    "type": "2C:12-1B(13)::STRANGULATION-DOMESTIC VIOLENCE ASSAULT",
+    "record_id": "25NB05380-1",
+    "time": "07/13/2025 00:47",
+    "location": "200 block of TALMADGE ST"
+  },
+  {
+    "type": "2C:12-1B(1)::AGGRAVATED ASSAULT",
+    "record_id": "25NB05428-1",
+    "time": "07/14/2025 15:48",
+    "location": "Neilson ST ,NEW BRUNSWICK ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1B(1)::AGGRAVATED ASSAULT",
+    "record_id": "25NB05432-1",
+    "time": "07/14/2025 22:48",
+    "location": "00 block of Van Dyke AVE"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05458-1",
+    "time": "07/15/2025 13:11",
+    "location": "200 block of French ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05463-1",
+    "time": "07/15/2025 15:56",
+    "location": "100 block of Livingston AVE"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05444-1",
+    "time": "07/15/2025 09:26",
+    "location": "Throop AVE ,NEW BRUNSWICK ,NJ ,08901"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB05473-1",
+    "time": "07/15/2025 21:40",
+    "location": "200 block of Lee AVE"
+  },
+  {
+    "type": "2C:15-1A(1)::ROBBERY BY FORCE",
+    "record_id": "25NB05476-1",
+    "time": "07/15/2025 16:41",
+    "location": "Townsend ST ,NEW BRUNSWICK ,NJ ,08901"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05471-1",
+    "time": "07/15/2025 20:08",
+    "location": "200 block of French ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05498-1",
+    "time": "07/16/2025 13:06",
+    "location": "00 block of Us Hwy 1 S ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05504-1",
+    "time": "07/16/2025 15:05",
+    "location": "100 block of Seaman ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05509-1",
+    "time": "07/16/2025 22:22",
+    "location": "00 block of LIVINGSTON AVE"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05482-1",
+    "time": "07/16/2025 01:41",
+    "location": "200 block of Delavan ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05521-1",
+    "time": "07/17/2025 13:13",
+    "location": "Townsend ST ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB06061-1",
+    "time": "07/17/2025 08:00",
+    "location": "00 block of Morrell ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05538-1",
+    "time": "07/18/2025 06:22",
+    "location": "200 block of Somerset ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05553-1",
+    "time": "07/18/2025 08:11",
+    "location": "Townsend ST ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1B(1)::AGGRAVATED ASSAULT",
+    "record_id": "25NB05563-1",
+    "time": "07/18/2025 20:10",
+    "location": "100 block of WELTON ST"
+  },
+  {
+    "type": "2C:39-4A::POSS WEAPONS UNLAWFUL PURPOSE",
+    "record_id": "25NB05563-2",
+    "time": "07/18/2025 20:10",
+    "location": "100 block of WELTON ST"
+  },
+  {
+    "type": "2C:39-5B::UNLAWFUL POSS OF HANDGUN",
+    "record_id": "25NB05563-3",
+    "time": "07/18/2025 20:10",
+    "location": "100 block of WELTON ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05564-1",
+    "time": "07/18/2025 21:04",
+    "location": "00 block of Easton AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05588-1",
+    "time": "07/19/2025 22:28",
+    "location": "300 block of SANDFORD ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05574-1",
+    "time": "07/19/2025 09:05",
+    "location": "100 block of Livingston AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05583-1",
+    "time": "07/19/2025 19:02",
+    "location": "300 block of SEAMAN ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05589-1",
+    "time": "07/19/2025 23:02",
+    "location": "00 block of Pine ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05590-1",
+    "time": "07/20/2025 00:55",
+    "location": "00 block of Harvey ST"
+  },
+  {
+    "type": "2C:15-1A(1)::ROBBERY BY FORCE",
+    "record_id": "25NB05595-1",
+    "time": "07/20/2025 08:12",
+    "location": "100 block of French ST"
+  },
+  {
+    "type": "2C:12-1B(3)::AGGRAVATED ASSAULT-RECKLESSLY CAUSE INJURY WITH WEAPON",
+    "record_id": "25NB05595-3",
+    "time": "07/20/2025 08:12",
+    "location": "100 block of French ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05593-1",
+    "time": "07/20/2025 07:20",
+    "location": "100 block of NEW ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05605-1",
+    "time": "07/20/2025 18:16",
+    "location": "100 block of Joyce Kilmer AVE"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05613-1",
+    "time": "07/21/2025 11:51",
+    "location": "Remsen AVE ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05636-1",
+    "time": "07/22/2025 08:22",
+    "location": "200 block of Redmond ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05641-1",
+    "time": "07/22/2025 12:26",
+    "location": "200 block of Talmadge ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05651-1",
+    "time": "07/22/2025 18:42",
+    "location": "00 block of Quentin AVE"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05700-1",
+    "time": "07/22/2025 06:00",
+    "location": "200 block of French ST"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB05651-2",
+    "time": "07/22/2025 18:42",
+    "location": "00 block of Quentin AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05667-1",
+    "time": "07/23/2025 10:21",
+    "location": "300 block of SUYDAM ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05698-1",
+    "time": "07/24/2025 08:26",
+    "location": "Bayard ST ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05699-1",
+    "time": "07/24/2025 08:31",
+    "location": "00 block of Hale ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05708-1",
+    "time": "07/24/2025 12:30",
+    "location": "00 block of DELAFIELD ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05730-1",
+    "time": "07/24/2025 17:00",
+    "location": "00 block of DELAFIELD ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05712-1",
+    "time": "07/24/2025 14:27",
+    "location": "200 block of Paul Robeson BLVD"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05742-1",
+    "time": "07/25/2025 19:56",
+    "location": "00 block of Quentin AVE"
+  },
+  {
+    "type": "2C:15-1A(3)::ROBBERY AND OTHER CRIME",
+    "record_id": "25NB05745-1",
+    "time": "07/25/2025 23:23",
+    "location": "00 block of PROSPECT ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05749-1",
+    "time": "07/26/2025 05:31",
+    "location": "00 block of Abeel ST"
+  },
+  {
+    "type": "2C:12-1B(1)::AGGRAVATED ASSAULT",
+    "record_id": "25NB05768-1",
+    "time": "07/26/2025 21:08",
+    "location": "00 block of DIVISION ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05753-1",
+    "time": "07/26/2025 00:55",
+    "location": "100 block of Louis ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05776-1",
+    "time": "07/27/2025 09:37",
+    "location": "00 block of High ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05810-1",
+    "time": "07/28/2025 10:51",
+    "location": "400 block of Joyce Kilmer AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05824-1",
+    "time": "07/28/2025 18:23",
+    "location": "00 block of Louis ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05826-1",
+    "time": "07/28/2025 21:22",
+    "location": "00 block of HARTWELL ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05835-1",
+    "time": "07/28/2025 12:00",
+    "location": "200 block of Hamilton ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05846-1",
+    "time": "07/29/2025 13:51",
+    "location": "00 block of Seaman ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05847-1",
+    "time": "07/29/2025 14:09",
+    "location": "100 block of HANDY ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05849-1",
+    "time": "07/29/2025 15:01",
+    "location": "200 block of LIVINGSTON AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05860-1",
+    "time": "07/29/2025 20:03",
+    "location": "00 block of Us Hwy 1 S ,New Brunswick ,NJ ,"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05864-1",
+    "time": "07/30/2025 03:39",
+    "location": "00 block of Hampton RD"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05882-1",
+    "time": "07/30/2025 15:13",
+    "location": "Sicard ST ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05886-1",
+    "time": "07/30/2025 17:00",
+    "location": "100 block of Albany ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05908-1",
+    "time": "07/31/2025 14:12",
+    "location": "Seaman ST ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1B(5)(C)::Assault On Medical Services - AGGRAVATED INJURY",
+    "record_id": "25NB05911-2",
+    "time": "07/31/2025 19:17",
+    "location": "00 block of Robert Wood Johnson PL"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05917-1",
+    "time": "07/31/2025 23:30",
+    "location": "100 block of Hamilton ST"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB05895-1",
+    "time": "07/31/2025 06:08",
+    "location": "200 block of Hale ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05897-1",
+    "time": "07/31/2025 08:14",
+    "location": "300 block of Suydam ST"
+  },
+  {
+    "type": "2C:12-1B(1)::AGGRAVATED ASSAULT",
+    "record_id": "25NB05890-1",
+    "time": "07/31/2025 01:58",
+    "location": "00 block of Ball ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05927-1",
+    "time": "08/01/2025 14:21",
+    "location": "00 block of Seaman ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05931-1",
+    "time": "08/01/2025 16:02",
+    "location": "00 block of WELLINGTON PL"
+  },
+  {
+    "type": "2C:12-1B(1)::AGGRAVATED ASSAULT",
+    "record_id": "25NB05932-1",
+    "time": "08/01/2025 17:51",
+    "location": "300 block of Somerset ST"
+  },
+  {
+    "type": "2C:12-1B(1)::AGGRAVATED ASSAULT",
+    "record_id": "25NB05941-1",
+    "time": "08/01/2025 23:15",
+    "location": "100 block of JOYCE KILMER AVE"
+  },
+  {
+    "type": "2C:15-1A(1)::ROBBERY BY FORCE",
+    "record_id": "25NB05943-1",
+    "time": "08/02/2025 01:22",
+    "location": "00 block of Robert Wood Johnson PL"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05949-1",
+    "time": "08/02/2025 08:53",
+    "location": "200 block of HAMILTON ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05963-2",
+    "time": "08/02/2025 18:16",
+    "location": "100 block of Comstock ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05950-2",
+    "time": "08/02/2025 08:58",
+    "location": "00 block of REMSEN AVE"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05959-1",
+    "time": "08/02/2025 16:01",
+    "location": "00 block of REMSEN AVE"
+  },
+  {
+    "type": "2C:18-2A(2)::BURGLARY REMAIN IN STRUCTURE",
+    "record_id": "25NB05964-1",
+    "time": "08/02/2025 18:30",
+    "location": "100 block of Handy ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB05965-1",
+    "time": "08/02/2025 19:12",
+    "location": "300 block of Jersey AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05969-1",
+    "time": "08/02/2025 22:45",
+    "location": "Lee AVE ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05977-1",
+    "time": "08/03/2025 06:59",
+    "location": "200 block of State Hwy 18 East Brunswick ,NJ ,08816"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB05979-1",
+    "time": "08/03/2025 09:30",
+    "location": "100 block of Livingston AVE"
+  },
+  {
+    "type": "2C:12-1B(2)::AGGRAVATED ASSAULT WITH WEAPON",
+    "record_id": "25NB05994-1",
+    "time": "08/04/2025 00:41",
+    "location": "200 block of WARD ST"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB06098-1",
+    "time": "08/05/2025 21:38",
+    "location": "100 block of French ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06055-1",
+    "time": "08/06/2025 06:55",
+    "location": "00 block of Quentin AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06069-1",
+    "time": "08/06/2025 14:19",
+    "location": "300 block of Seaman ST"
+  },
+  {
+    "type": "2C:15-1A(1)::ROBBERY BY FORCE",
+    "record_id": "25NB06063-1",
+    "time": "08/06/2025 10:06",
+    "location": "French ST ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06085-1",
+    "time": "08/06/2025 20:07",
+    "location": "French ST ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB06103-1",
+    "time": "08/07/2025 15:46",
+    "location": "00 block of Stone ST"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB06107-2",
+    "time": "08/07/2025 23:16",
+    "location": "200 block of French ST"
+  },
+  {
+    "type": "2C:15-1A(1)::ROBBERY BY FORCE",
+    "record_id": "25NB06108-1",
+    "time": "08/07/2025 23:59",
+    "location": "Handy ST ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06144-1",
+    "time": "08/08/2025 22:19",
+    "location": "300 block of Jersey AVE"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB06140-1",
+    "time": "08/08/2025 17:22",
+    "location": "00 block of Delafield ST"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB06122-1",
+    "time": "08/08/2025 02:09",
+    "location": "200 block of French ST"
+  },
+  {
+    "type": "2C:12-1B(2)::AGGRAVATED ASSAULT WITH WEAPON",
+    "record_id": "25NB06114-1",
+    "time": "08/08/2025 03:30",
+    "location": "00 block of Neilson ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06145-2",
+    "time": "08/09/2025 00:34",
+    "location": "200 block of George ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06146-1",
+    "time": "08/09/2025 00:28",
+    "location": "100 block of Wright PL"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB06194-1",
+    "time": "08/09/2025 06:00",
+    "location": "00 block of GUILDEN ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06163-1",
+    "time": "08/09/2025 12:55",
+    "location": "00 block of LIVINGSTON AVE"
+  },
+  {
+    "type": "2C:12-1B(5)(C) 13B::ASSAULT ON MEDICAL SERVICES - BODILY INJURY",
+    "record_id": "25NB06155-1",
+    "time": "08/09/2025 08:43",
+    "location": "00 block of DUKE ST"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB06183-1",
+    "time": "08/10/2025 07:23",
+    "location": "00 block of Delafield ST"
+  },
+  {
+    "type": "2C:12-1B(2)::AGGRAVATED ASSAULT WITH WEAPON",
+    "record_id": "25NB06176-1",
+    "time": "08/10/2025 04:50",
+    "location": "00 block of BROOKSIDE AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06203-1",
+    "time": "08/10/2025 21:00",
+    "location": "100 block of LIVINGSTON AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06204-1",
+    "time": "08/10/2025 21:32",
+    "location": "00 block of WRIGHT PL"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB06212-1",
+    "time": "08/11/2025 07:38",
+    "location": "00 block of COURTLANDT ST"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB06249-1",
+    "time": "08/12/2025 12:19",
+    "location": "00 block of Delafield ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB06252-1",
+    "time": "08/12/2025 14:05",
+    "location": "100 block of Somerset ST"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB06239-1",
+    "time": "08/12/2025 06:24",
+    "location": "300 block of Paul Robeson BLVD"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB06265-1",
+    "time": "08/13/2025 04:50",
+    "location": "700 block of Somerset ST"
+  },
+  {
+    "type": "2C:12-1A(2)::SIMPLE ASSAULT W/DEADLY WEAPON - BODILY INJURY",
+    "record_id": "25NB06274-1",
+    "time": "08/13/2025 12:56",
+    "location": "00 block of Lawrence ST"
+  },
+  {
+    "type": "2C:12-1B(2)::AGGRAVATED ASSAULT WITH WEAPON",
+    "record_id": "25NB06274-2",
+    "time": "08/13/2025 12:56",
+    "location": "00 block of Lawrence ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06291-1",
+    "time": "08/14/2025 07:50",
+    "location": "00 block of Paul Robeson BLVD"
+  },
+  {
+    "type": "2C:12-1B(2)::AGGRAVATED ASSAULT WITH WEAPON",
+    "record_id": "25NB06303-1",
+    "time": "08/14/2025 14:53",
+    "location": "LIVINGSTON AVE ,NEW BRUNSWICK ,NJ ,08901"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB06305-1",
+    "time": "08/14/2025 16:16",
+    "location": "200 block of Baldwin ST"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB06308-1",
+    "time": "08/14/2025 16:16",
+    "location": "200 block of Baldwin ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB06306-1",
+    "time": "08/14/2025 16:26",
+    "location": "00 block of STONE ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB06313-2",
+    "time": "08/15/2025 04:10",
+    "location": "00 block of Bergen CT"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB06335-1",
+    "time": "08/15/2025 20:44",
+    "location": "00 block of ROBINSON ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06336-1",
+    "time": "08/15/2025 21:43",
+    "location": "French ST ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1B(1)::AGGRAVATED ASSAULT",
+    "record_id": "25NB06334-3",
+    "time": "08/15/2025 17:57",
+    "location": "00 block of Harvey ST"
+  },
+  {
+    "type": "2C:15-1A(1)::ROBBERY BY FORCE",
+    "record_id": "25NB06334-4",
+    "time": "08/15/2025 17:57",
+    "location": "00 block of Harvey ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB06338-1",
+    "time": "08/16/2025 03:21",
+    "location": "00 block of Georges RD"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB06347-1",
+    "time": "08/16/2025 06:42",
+    "location": "00 block of Central AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06362-1",
+    "time": "08/16/2025 16:31",
+    "location": "300 block of Delavan ST"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB06371-1",
+    "time": "08/17/2025 02:55",
+    "location": "00 block of MINE ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB06383-1",
+    "time": "08/17/2025 12:29",
+    "location": "00 block of Guilden ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06386-1",
+    "time": "08/17/2025 14:22",
+    "location": "300 block of Somerset ST"
+  },
+  {
+    "type": "2C:12-1B(4)::AGGRAVATED ASSAULT - POINTING A FIREARM",
+    "record_id": "25NB06389-1",
+    "time": "08/17/2025 14:09",
+    "location": "600 block of Somerset ST"
+  },
+  {
+    "type": "2C:12-1B(2)::AGGRAVATED ASSAULT WITH WEAPON",
+    "record_id": "25NB06391-1",
+    "time": "08/17/2025 16:06",
+    "location": "100 block of Comstock ST"
+  },
+  {
+    "type": "2C:12-1B(13)::STRANGULATION-DOMESTIC VIOLENCE ASSAULT",
+    "record_id": "25NB06392-1",
+    "time": "08/17/2025 15:36",
+    "location": "00 block of Robert Wood Johnson PL"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06394-1",
+    "time": "08/17/2025 19:00",
+    "location": "200 block of Hamilton ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB06376-1",
+    "time": "08/17/2025 07:38",
+    "location": "100 block of Paul Robeson BLVD"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB06508-1",
+    "time": "08/17/2025 21:26",
+    "location": "200 block of SUYDAM ST"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB06402-1",
+    "time": "08/18/2025 08:16",
+    "location": "00 block of Dix ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06422-1",
+    "time": "08/18/2025 17:21",
+    "location": "100 block of SEAMAN ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB06405-1",
+    "time": "08/18/2025 09:43",
+    "location": "00 block of CENTRAL AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06419-1",
+    "time": "08/18/2025 16:54",
+    "location": "Seaman ST ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB06432-1",
+    "time": "08/19/2025 05:31",
+    "location": "300 block of Handy ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB06442-1",
+    "time": "08/19/2025 15:03",
+    "location": "00 block of Paterson ST"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB06456-1",
+    "time": "08/19/2025 07:00",
+    "location": "300 block of Handy ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB06461-1",
+    "time": "08/20/2025 07:38",
+    "location": "00 block of Brookside AVE"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB06481-1",
+    "time": "08/20/2025 19:51",
+    "location": "300 block of Handy ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06485-1",
+    "time": "08/21/2025 00:10",
+    "location": "00 block of Taylor DR"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06487-1",
+    "time": "08/21/2025 05:53",
+    "location": "00 block of Joyce Kilmer AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06491-2",
+    "time": "08/21/2025 08:45",
+    "location": "00 block of REMSEN AVE"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB06505-1",
+    "time": "08/21/2025 21:00",
+    "location": "100 block of French ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06501-1",
+    "time": "08/21/2025 15:29",
+    "location": "100 block of REMSEN AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06529-1",
+    "time": "08/22/2025 22:11",
+    "location": "100 block of French ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06530-1",
+    "time": "08/23/2025 00:00",
+    "location": "Albany ST ,NEW BRUNSWICK ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1B(13)::STRANGULATION-DOMESTIC VIOLENCE ASSAULT",
+    "record_id": "25NB06535-1",
+    "time": "08/23/2025 10:33",
+    "location": "00 block of Paterson ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06535-2",
+    "time": "08/23/2025 10:33",
+    "location": "00 block of Paterson ST"
+  },
+  {
+    "type": "2C:12-1B(1)::AGGRAVATED ASSAULT",
+    "record_id": "25NB06549-1",
+    "time": "08/23/2025 19:40",
+    "location": "00 block of Remsen AVE"
+  },
+  {
+    "type": "2C:12-1B(4)::AGGRAVATED ASSAULT - POINTING A FIREARM",
+    "record_id": "25NB06554-1",
+    "time": "08/23/2025 23:12",
+    "location": "00 block of Pine ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06555-1",
+    "time": "08/23/2025 23:09",
+    "location": "00 block of Us Hwy 1 N ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1B(2)::AGGRAVATED ASSAULT WITH WEAPON",
+    "record_id": "25NB06553-1",
+    "time": "08/23/2025 21:30",
+    "location": "00 block of Plum ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB06565-1",
+    "time": "08/24/2025 09:08",
+    "location": "00 block of Bethany ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB06579-1",
+    "time": "08/24/2025 18:42",
+    "location": "Lee AVE ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB06560-1",
+    "time": "08/24/2025 05:48",
+    "location": "00 block of MORRIS ST"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB06563-1",
+    "time": "08/24/2025 08:03",
+    "location": "00 block of PLUM ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB06604-1",
+    "time": "08/25/2025 13:56",
+    "location": "00 block of LOUIS ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB06613-1",
+    "time": "08/26/2025 02:23",
+    "location": "200 block of Ward ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06633-2",
+    "time": "08/26/2025 18:32",
+    "location": "100 block of Jones AVE"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB06641-1",
+    "time": "08/27/2025 08:14",
+    "location": "200 block of WARD ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06699-2",
+    "time": "08/29/2025 13:37",
+    "location": "00 block of New ST"
+  },
+  {
+    "type": "2C:15-1A(2)::ROBBERY BY INJURY THREAT",
+    "record_id": "25NB06703-2",
+    "time": "08/29/2025 14:49",
+    "location": "00 block of Jersey AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06707-1",
+    "time": "08/29/2025 20:19",
+    "location": "00 block of COURTLANDT ST"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB06716-1",
+    "time": "08/30/2025 05:54",
+    "location": "100 block of Welton ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06728-1",
+    "time": "08/30/2025 14:02",
+    "location": "200 block of Handy ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06733-1",
+    "time": "08/30/2025 15:17",
+    "location": "00 block of Morrell ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06739-1",
+    "time": "08/30/2025 18:50",
+    "location": "00 block of Joyce Kilmer AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06743-1",
+    "time": "08/30/2025 19:58",
+    "location": "00 block of Us Hwy 1 S ,New Brunswick ,NJ ,"
+  },
+  {
+    "type": "2C:12-1B(13)::STRANGULATION-DOMESTIC VIOLENCE ASSAULT",
+    "record_id": "25NB06742-1",
+    "time": "08/30/2025 19:30",
+    "location": "300 block of LYLA LN"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB06768-1",
+    "time": "08/31/2025 22:27",
+    "location": "00 block of Central AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06788-1",
+    "time": "09/01/2025 12:08",
+    "location": "00 block of Paul Robeson BLVD"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06793-1",
+    "time": "09/01/2025 15:57",
+    "location": "300 block of SANDFORD ST"
+  },
+  {
+    "type": "2C:12-1B(1)::AGGRAVATED ASSAULT",
+    "record_id": "25NB06804-1",
+    "time": "09/01/2025 23:09",
+    "location": "00 block of Paul Robeson BLVD"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB06812-1",
+    "time": "09/02/2025 07:53",
+    "location": "200 block of SOMERSET ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB06819-1",
+    "time": "09/02/2025 13:03",
+    "location": "00 block of Senior ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06827-2",
+    "time": "09/02/2025 15:44",
+    "location": "200 block of HANDY ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06813-1",
+    "time": "09/02/2025 08:33",
+    "location": "CHURCH ST ,NEW BRUNSWICK ,NJ ,08901"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB06860-1",
+    "time": "09/03/2025 20:00",
+    "location": "200 block of French ST"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB06864-1",
+    "time": "09/04/2025 05:26",
+    "location": "200 block of Remsen AVE"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB06890-1",
+    "time": "09/04/2025 15:04",
+    "location": "00 block of LOUIS ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06921-1",
+    "time": "09/06/2025 02:34",
+    "location": "00 block of Robert Wood Johnson PL"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06939-1",
+    "time": "09/06/2025 17:57",
+    "location": "00 block of Kirkpatrick ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB06927-1",
+    "time": "09/06/2025 07:33",
+    "location": "00 block of Jersey AVE"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB06948-1",
+    "time": "09/07/2025 07:03",
+    "location": "100 block of RICHARDSON ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB06951-1",
+    "time": "09/07/2025 09:41",
+    "location": "Somerset ST ,NEW BRUNSWICK ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1B(2)::AGGRAVATED ASSAULT WITH WEAPON",
+    "record_id": "25NB06953-1",
+    "time": "09/07/2025 09:39",
+    "location": "00 block of Us Hwy 1 N ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB06960-1",
+    "time": "09/07/2025 17:18",
+    "location": "00 block of Remsen AVE"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB06967-1",
+    "time": "09/08/2025 03:09",
+    "location": "00 block of Lawrence ST"
+  },
+  {
+    "type": "2C:12-1B(1)::AGGRAVATED ASSAULT",
+    "record_id": "25NB06974-1",
+    "time": "09/08/2025 11:52",
+    "location": "00 block of ELLEN ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB07230-1",
+    "time": "09/08/2025 09:40",
+    "location": "Spring ST ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB07012-1",
+    "time": "09/09/2025 18:41",
+    "location": "00 block of Roosevelt AVE"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB07029-1",
+    "time": "09/10/2025 09:54",
+    "location": "00 block of WOODBRIDGE ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB07026-1",
+    "time": "09/10/2025 08:12",
+    "location": "State HWY ,S ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB07058-1",
+    "time": "09/11/2025 03:53",
+    "location": "200 block of HOFFMAN BLVD"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB07078-1",
+    "time": "09/11/2025 18:10",
+    "location": "00 block of Joyce Kilmer AVE"
+  },
+  {
+    "type": "2C:12-1B(1)::AGGRAVATED ASSAULT",
+    "record_id": "25NB07073-1",
+    "time": "09/11/2025 14:05",
+    "location": "00 block of REMSEN AVE"
+  },
+  {
+    "type": "2C:29-1A::OBSTRUCTING ADMIN OF LAW/GOVERNMENTAL FUNCTION",
+    "record_id": "25NB07073-2",
+    "time": "09/11/2025 14:05",
+    "location": "00 block of REMSEN AVE"
+  },
+  {
+    "type": "2C:29-2A(2)::RESISTING ARREST - BY FLIGHT(4TH DEGREE)",
+    "record_id": "25NB07073-3",
+    "time": "09/11/2025 14:05",
+    "location": "00 block of REMSEN AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB07077-2",
+    "time": "09/11/2025 16:52",
+    "location": "200 block of EASTON AVE"
+  },
+  {
+    "type": "2C:11-3A(1)::MURDER - PURPOSELY",
+    "record_id": "25NB07073-4",
+    "time": "09/11/2025 14:05",
+    "location": "00 block of REMSEN AVE"
+  },
+  {
+    "type": "2C:33-30(A)::PROMOTION OF ORGANIZED STREET CRIME(NEEDS TO BE GRADED)",
+    "record_id": "25NB07073-5",
+    "time": "09/11/2025 14:05",
+    "location": "00 block of REMSEN AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB07100-1",
+    "time": "09/12/2025 12:56",
+    "location": "00 block of Brookside AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB07101-1",
+    "time": "09/12/2025 13:06",
+    "location": "100 block of Hamilton ST"
+  },
+  {
+    "type": "2C:12-1B(1)::AGGRAVATED ASSAULT",
+    "record_id": "25NB07127-1",
+    "time": "09/13/2025 06:58",
+    "location": "00 block of Harvey ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB07149-1",
+    "time": "09/13/2025 22:52",
+    "location": "00 block of LUFBERRY AVE"
+  },
+  {
+    "type": "2C:17-1B(2)::ARSON-BLDG/STRUCT",
+    "record_id": "25NB07162-1",
+    "time": "09/14/2025 14:52",
+    "location": "Remsen AVE ,NEW BRUNSWICK ,NJ ,08901"
+  },
+  {
+    "type": "2C:17-1B(2)::ARSON-BLDG/STRUCT",
+    "record_id": "25NB07164-1",
+    "time": "09/14/2025 15:11",
+    "location": "Sandford ST ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB07172-1",
+    "time": "09/14/2025 20:36",
+    "location": "00 block of S Ward ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB07190-1",
+    "time": "09/15/2025 11:23",
+    "location": "200 block of Easton AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB07197-1",
+    "time": "09/15/2025 14:20",
+    "location": "Joyce Kilmer AVE ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:15-1A(2)::ROBBERY BY INJURY THREAT",
+    "record_id": "25NB07189-1",
+    "time": "09/15/2025 11:11",
+    "location": "James ST ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB07243-1",
+    "time": "09/16/2025 14:04",
+    "location": "200 block of Somerset ST"
+  },
+  {
+    "type": "2C:12-1B(2)::AGGRAVATED ASSAULT WITH WEAPON",
+    "record_id": "25NB07249-1",
+    "time": "09/16/2025 18:50",
+    "location": "100 block of French ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB07253-1",
+    "time": "09/17/2025 04:14",
+    "location": "00 block of Bethany ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB07277-1",
+    "time": "09/18/2025 08:19",
+    "location": "00 block of Easton AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB07278-1",
+    "time": "09/18/2025 08:26",
+    "location": "200 block of POWERS ST"
+  },
+  {
+    "type": "2C:15-1A(1)::ROBBERY BY FORCE",
+    "record_id": "25NB07289-1",
+    "time": "09/18/2025 11:09",
+    "location": "Jersey AVE ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB07303-1",
+    "time": "09/18/2025 14:48",
+    "location": "1200 block of Edpas RD"
+  },
+  {
+    "type": "2C:12-1B(13)::STRANGULATION-DOMESTIC VIOLENCE ASSAULT",
+    "record_id": "25NB07307-1",
+    "time": "09/18/2025 21:10",
+    "location": "200 block of Easton AVE"
+  },
+  {
+    "type": "2C:12-1B(2)::AGGRAVATED ASSAULT WITH WEAPON",
+    "record_id": "25NB07330-1",
+    "time": "09/19/2025 11:49",
+    "location": "Louis ST ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB07330-2",
+    "time": "09/19/2025 11:49",
+    "location": "Louis ST ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB07338-1",
+    "time": "09/19/2025 19:21",
+    "location": "00 block of Robert Wood Johnson PL"
+  },
+  {
+    "type": "2C:15-1A(1)::ROBBERY BY FORCE",
+    "record_id": "25NB07344-1",
+    "time": "09/19/2025 20:56",
+    "location": "100 block of REMSEN AVE"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB07349-1",
+    "time": "09/20/2025 04:45",
+    "location": "00 block of Dennis ST"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB07373-2",
+    "time": "09/20/2025 23:39",
+    "location": "00 block of GUILDEN ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB07386-1",
+    "time": "09/21/2025 13:07",
+    "location": "100 block of Lawrence ST"
+  },
+  {
+    "type": "2C:15-1A(1)::ROBBERY BY FORCE",
+    "record_id": "25NB07389-2",
+    "time": "09/21/2025 18:30",
+    "location": "Phelps ave\\Newell ave New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1B(2)::AGGRAVATED ASSAULT WITH WEAPON",
+    "record_id": "25NB07377-1",
+    "time": "09/21/2025 08:29",
+    "location": "300 block of Townsend ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB07390-1",
+    "time": "09/22/2025 01:24",
+    "location": "00 block of Lufberry AVE"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB07419-2",
+    "time": "09/22/2025 22:03",
+    "location": "200 block of POWERS ST"
+  },
+  {
+    "type": "2C:12-1B(3)::AGGRAVATED ASSAULT-RECKLESSLY CAUSE INJURY WITH WEAPON",
+    "record_id": "25NB07404-1",
+    "time": "09/22/2025 11:08",
+    "location": "00 block of Alexander ST"
+  },
+  {
+    "type": "2C:12-1B(13)::STRANGULATION-DOMESTIC VIOLENCE ASSAULT",
+    "record_id": "25NB07433-1",
+    "time": "09/23/2025 08:20",
+    "location": "00 block of ROOSEVELT AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB07433-3",
+    "time": "09/23/2025 08:20",
+    "location": "00 block of ROOSEVELT AVE"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB07439-1",
+    "time": "09/23/2025 10:02",
+    "location": "00 block of Lawrence ST"
+  },
+  {
+    "type": "2C:12-1B(13)::STRANGULATION-DOMESTIC VIOLENCE ASSAULT",
+    "record_id": "25NB07449-1",
+    "time": "09/23/2025 14:39",
+    "location": "00 block of BERGAN CT"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB07452-1",
+    "time": "09/23/2025 14:50",
+    "location": "300 block of Somerset ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB07514-1",
+    "time": "09/25/2025 17:10",
+    "location": "100 block of French ST"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB07519-1",
+    "time": "09/25/2025 22:17",
+    "location": "00 block of PATERSON ST"
+  },
+  {
+    "type": "2C:12-1B(1)::AGGRAVATED ASSAULT",
+    "record_id": "25NB07494-1",
+    "time": "09/25/2025 03:52",
+    "location": "Regency Manor DR ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB07521-1",
+    "time": "09/26/2025 03:07",
+    "location": "00 block of LIVINGSTON AVE"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB07522-1",
+    "time": "09/26/2025 02:48",
+    "location": "300 block of Seaman ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB07532-1",
+    "time": "09/26/2025 06:33",
+    "location": "00 block of Morris ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB07552-1",
+    "time": "09/26/2025 15:52",
+    "location": "00 block of Us Hwy 1 N ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB07556-1",
+    "time": "09/26/2025 17:33",
+    "location": "00 block of Us Hwy 1 N ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB07560-1",
+    "time": "09/26/2025 22:20",
+    "location": "French ST ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1B(2)::AGGRAVATED ASSAULT WITH WEAPON",
+    "record_id": "25NB07562-1",
+    "time": "09/26/2025 22:23",
+    "location": "00 block of Us Hwy 1 N ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB07563-1",
+    "time": "09/26/2025 23:01",
+    "location": "300 block of Sandford ST"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB07566-1",
+    "time": "09/27/2025 03:12",
+    "location": "00 block of PATERSON ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB07567-1",
+    "time": "09/27/2025 04:28",
+    "location": "100 block of SANDFORD ST"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB07571-1",
+    "time": "09/27/2025 09:56",
+    "location": "100 block of Hale ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB07572-1",
+    "time": "09/27/2025 09:50",
+    "location": "100 block of Suydam ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB07582-1",
+    "time": "09/27/2025 20:55",
+    "location": "00 block of Delavan ST"
+  },
+  {
+    "type": "2C:12-1B(2)::AGGRAVATED ASSAULT WITH WEAPON",
+    "record_id": "25NB07585-1",
+    "time": "09/28/2025 00:13",
+    "location": "300 block of HAMILTON ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB07600-1",
+    "time": "09/28/2025 15:37",
+    "location": "00 block of Wall ST"
+  },
+  {
+    "type": "2C:18-2A(1) MV::Burglary By Entering Motor Vehicle",
+    "record_id": "25NB07604-1",
+    "time": "09/28/2025 17:12",
+    "location": "300 block of HALE ST"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB07609-1",
+    "time": "09/28/2025 08:00",
+    "location": "100 block of Hale ST"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB07622-1",
+    "time": "09/29/2025 20:05",
+    "location": "00 block of Easton AVE"
+  },
+  {
+    "type": "2C:12-1A(1)::SIMPLE ASSAULT BODILY INJURY",
+    "record_id": "25NB07611-1",
+    "time": "09/29/2025 06:49",
+    "location": "Hassart ST ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:12-1B(1)::AGGRAVATED ASSAULT",
+    "record_id": "25NB07623-1",
+    "time": "09/29/2025 21:39",
+    "location": "200 block of George ST"
+  },
+  {
+    "type": "2C:12-1B(1)::AGGRAVATED ASSAULT",
+    "record_id": "25NB07627-1",
+    "time": "09/30/2025 05:09",
+    "location": "00 block of US RTE ,New Brunswick ,NJ ,08901"
+  },
+  {
+    "type": "2C:18-2A(1)::BURGLARY BY ENTERING STRUCTURE",
+    "record_id": "25NB07666-1",
+    "time": "10/01/2025 14:39",
+    "location": "200 block of George ST"
+  }
+]
