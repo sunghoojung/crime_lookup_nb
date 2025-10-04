@@ -97,47 +97,42 @@ export default function Sidebar({ crimes, selectedCrime, onCrimeSelect, onFilter
       {/* Crime Tab Content */}
       {activeTab === 'crimes' && (
         <>
-          {/* Header */}
-          <div className="bg-gradient-to-r from-slate-900 to-slate-800 text-white px-6 py-5">
-            <div className="mb-4">
-              <h2 className="text-xl font-semibold tracking-tight">
-                Crime Incidents
-              </h2>
-              <p className="text-xs text-slate-300 mt-1">Real-time crime data</p>
-            </div>
-
-        {/* Stats */}
-        <div className="grid grid-cols-2 gap-3">
-          <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 col-span-2">
-            <div className="flex items-center justify-between mb-1">
-              <Activity className="w-4 h-4 text-slate-300" />
-              <p className="text-3xl font-bold">{crimeStats.total}</p>
-            </div>
-            <p className="text-xs text-slate-300">Total Incidents</p>
-          </div>
-          {/* Show top categories with counts */}
-          {Object.entries(categoryCounts)
-            .sort((a, b) => b[1] - a[1])
-            .slice(0, 4)
-            .map(([category, count]) => (
-              <div key={category} className="bg-white/10 backdrop-blur-sm rounded-lg p-2">
-                <p className="text-lg font-bold">{count}</p>
-                <p className="text-xs text-slate-300 truncate">{category}</p>
+          {/* Compact Header */}
+          <div className="bg-gradient-to-r from-slate-900 to-slate-800 text-white px-4 py-3">
+            <div className="flex items-center justify-between">
+              <div>
+                <h2 className="text-lg font-semibold">Crime Incidents</h2>
+                <p className="text-xs text-slate-300">Real-time data</p>
               </div>
-            ))}
-        </div>
+              <div className="text-right">
+                <p className="text-2xl font-bold">{crimeStats.total}</p>
+                <p className="text-xs text-slate-300">Total</p>
+              </div>
+            </div>
 
-      </div>
+            {/* Compact Stats Bar */}
+            <div className="flex gap-2 mt-2 text-xs">
+              {Object.entries(categoryCounts)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 3)
+                .map(([category, count]) => (
+                  <div key={category} className="bg-white/10 px-2 py-1 rounded flex items-center gap-1">
+                    <span className="font-semibold">{count}</span>
+                    <span className="text-slate-300 truncate max-w-[80px]">{category}</span>
+                  </div>
+                ))}
+            </div>
+          </div>
 
-      {/* Search and Filter Section */}
-      <div className="px-6 py-4 bg-gray-50 border-b border-gray-200">
+      {/* Compact Search and Filter Section */}
+      <div className="px-4 py-3 bg-gray-50 border-b border-gray-200">
         {/* Search Bar */}
-        <div className="relative mb-3">
-          <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400" />
+        <div className="relative mb-2">
+          <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-3.5 h-3.5 text-gray-400" />
           <input
             type="text"
             placeholder="Search incidents..."
-            className="w-full pl-10 pr-10 py-2.5 bg-white border border-gray-200 rounded-xl
+            className="w-full pl-9 pr-8 py-2 bg-white border border-gray-200 rounded-lg
                      focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm
                      placeholder:text-gray-400 transition-all duration-200"
             value={searchQuery}
@@ -146,28 +141,28 @@ export default function Sidebar({ crimes, selectedCrime, onCrimeSelect, onFilter
           {searchQuery && (
             <button
               onClick={() => setSearchQuery('')}
-              className="absolute right-3 top-1/2 transform -translate-y-1/2
-                       hover:bg-gray-100 rounded-full p-1 transition-colors"
+              className="absolute right-2.5 top-1/2 transform -translate-y-1/2
+                       hover:bg-gray-100 rounded-full p-0.5 transition-colors"
             >
-              <X className="w-3.5 h-3.5 text-gray-400" />
+              <X className="w-3 h-3 text-gray-400" />
             </button>
           )}
         </div>
 
-        {/* Time Range Dropdown */}
-        <div className="relative mb-3" ref={dropdownRef}>
+        {/* Time Range Dropdown - Compact */}
+        <div className="relative mb-2" ref={dropdownRef}>
           <button
             onClick={() => setIsTimeDropdownOpen(!isTimeDropdownOpen)}
-            className="w-full flex items-center justify-between px-4 py-2.5 bg-white border border-gray-200 rounded-xl
+            className="w-full flex items-center justify-between px-3 py-2 bg-white border border-gray-200 rounded-lg
                      hover:border-gray-300 transition-all duration-200 text-sm"
           >
             <div className="flex items-center space-x-2">
-              <Calendar className="w-4 h-4 text-gray-400" />
-              <span className="text-gray-700 font-medium">
+              <Calendar className="w-3.5 h-3.5 text-gray-400" />
+              <span className="text-gray-700 font-medium text-sm">
                 {getDateRange(timeRange).label}
               </span>
             </div>
-            <ChevronDown className={`w-4 h-4 text-gray-400 transition-transform ${isTimeDropdownOpen ? 'rotate-180' : ''}`} />
+            <ChevronDown className={`w-3.5 h-3.5 text-gray-400 transition-transform ${isTimeDropdownOpen ? 'rotate-180' : ''}`} />
           </button>
 
           {/* Dropdown Menu */}
@@ -202,46 +197,46 @@ export default function Sidebar({ crimes, selectedCrime, onCrimeSelect, onFilter
           )}
         </div>
 
-        {/* Filter Pills - Category Filter */}
-        <div className="space-y-2">
-          <div className="flex items-center space-x-2 mb-2">
-            <Filter className="w-4 h-4 text-gray-400" />
-            <span className="text-xs text-gray-600 font-medium">Filter by Category</span>
+        {/* Compact Category Filter */}
+        <div>
+          <div className="flex items-center space-x-1.5 mb-1.5">
+            <Filter className="w-3.5 h-3.5 text-gray-400" />
+            <span className="text-xs text-gray-600 font-medium">Categories</span>
           </div>
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap gap-1.5">
             <button
               onClick={() => setCategoryFilter('ALL')}
               className={`
-                px-3 py-1.5 rounded-lg text-xs font-medium transition-all duration-200
+                px-2 py-1 rounded text-xs font-medium transition-all duration-200
                 ${categoryFilter === 'ALL'
-                  ? 'bg-slate-800 text-white shadow-sm'
+                  ? 'bg-slate-800 text-white'
                   : 'bg-white text-gray-600 hover:bg-gray-100 border border-gray-200'
                 }
               `}
             >
-              ALL
+              All
             </button>
             {getAllCategories().map((category) => (
               <button
                 key={category}
                 onClick={() => setCategoryFilter(category)}
                 className={`
-                  px-3 py-1.5 rounded-lg text-xs font-medium transition-all duration-200
+                  px-2 py-1 rounded text-xs font-medium transition-all duration-200
                   ${categoryFilter === category
-                    ? 'bg-slate-700 text-white shadow-sm'
+                    ? 'bg-slate-700 text-white'
                     : 'bg-white text-gray-600 hover:bg-gray-100 border border-gray-200'
                   }
                 `}
               >
-                {category}
+                {category.length > 15 ? category.substring(0, 12) + '...' : category}
               </button>
             ))}
           </div>
         </div>
       </div>
 
-      {/* Results Count */}
-      <div className="px-6 py-2 bg-white border-b border-gray-100">
+      {/* Compact Results Count */}
+      <div className="px-4 py-1.5 bg-white border-b border-gray-100">
         <p className="text-xs font-medium text-gray-500">
           {filteredCrimes.length} {filteredCrimes.length === 1 ? 'incident' : 'incidents'} found
         </p>
@@ -271,12 +266,12 @@ export default function Sidebar({ crimes, selectedCrime, onCrimeSelect, onFilter
         )}
       </div>
 
-      {/* Footer */}
-      <div className="border-t bg-white px-6 py-4">
+      {/* Compact Footer */}
+      <div className="border-t bg-white px-4 py-2">
         <div className="flex items-center justify-between text-xs text-gray-500">
-          <span>Last updated: Today</span>
+          <span>Updated: Today</span>
           <span className="flex items-center space-x-1">
-            <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+            <div className="w-1.5 h-1.5 bg-green-500 rounded-full animate-pulse"></div>
             <span>Live</span>
           </span>
         </div>

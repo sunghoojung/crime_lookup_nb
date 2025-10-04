@@ -170,9 +170,9 @@ export default function SubmitCrime() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 py-8">
-      <div className="max-w-2xl mx-auto px-4">
-        <div className="bg-white rounded-xl shadow-lg overflow-hidden">
+    <div className="bg-gray-50 min-h-full py-8 overflow-y-auto">
+      <div className="max-w-2xl mx-auto px-4 pb-8">
+        <div className="bg-white rounded-xl shadow-lg">
           {/* Header */}
           <div className="bg-gradient-to-r from-slate-900 to-slate-800 text-white px-6 py-8">
             <h1 className="text-2xl font-bold mb-2">Submit Crime Report</h1>

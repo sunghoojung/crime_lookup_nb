@@ -48,7 +48,7 @@ export default function Home() {
   }
 
   return (
-    <div className="relative flex h-[calc(100vh-64px)] overflow-hidden">
+    <div className="relative flex h-full overflow-hidden">
       {/* Sidebar */}
       <div className="w-full md:w-96 lg:w-[420px] flex-shrink-0 border-r">
         <Sidebar
