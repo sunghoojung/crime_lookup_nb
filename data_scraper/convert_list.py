@@ -62,9 +62,26 @@ def clean_location(location: str) -> str:
     if "phelps ave" in loc.lower():
         loc = "Phelps Ave"
     loc = loc.title()
-    return loc
+    array_of_location = loc.split(" ")
+    end_string = array_of_location[-1]
+    my_dict = {
+        "St":"Street",
+        "Ave":"Avenue",
+        "Blvd":"Boulevard",
+        "Pl":"Place",
+        "Hwy":"Highway",
+        "Rd":"Road",
+        "Dr":"Drive",
+        "Cir":"Circle"  
+    }
+    if my_dict.get(end_string)!=None:
+        array_of_location[-1] = my_dict.get(end_string)
+    else:
+        return loc
+    
+    return " ".join(array_of_location)
 
-with open("data_scraper/list.html", "r", encoding="utf-8") as file:
+with open("list.html", "r", encoding="utf-8") as file:
     html = file.read()
 
 soup = BeautifulSoup(html, "html.parser")
@@ -88,11 +105,21 @@ for row in rows[1:]:
     location = cells[3].get_text(strip=True)
     location = clean_location(location)
 
+    categories = ["Robbery","Arson","Simple Assault","Aggravated Assault","Murder","Burglary","Shooting"]
+    to_add = ""
+    for category in categories:
+        check = crime_type_raw
+        if category in check or category.upper() in check:
+            to_add=category
+            break
+            
+
     crime = {
         "type": crime_type_raw,
         "record_id": record_id,
         "time": time,
-        "location": location
+        "location": location,
+        "category":to_add
     }
 
     crime_data.append(crime)
@@ -100,6 +127,6 @@ for row in rows[1:]:
 # Output JSON
 
 json_output = json.dumps(crime_data, indent=2)
-with open("data_scraper/file.json", "w", encoding="utf-8") as file:
+with open("file.json", "w", encoding="utf-8") as file:
     json.dump(crime_data, file, indent=2)
 print(json_output)
