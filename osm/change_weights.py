@@ -2,12 +2,13 @@
 
 import pandas as pd
 import json
-
+import os
 # -------------------------------
 # 1. Load data
 # -------------------------------
-roads_path = "newbrunswick_edges.csv"
-crime_path = "../data_scraper/crime_counts_by_street.json"
+roads_path = os.path.join(os.getcwd(), "osm", "newbrunswick_edges.csv")
+crime_path = os.path.join(os.getcwd(), "data_scraper", "crime_counts_by_street.json")
+
 
 df = pd.read_csv(roads_path)
 
@@ -18,12 +19,12 @@ with open(crime_path, "r") as f:
 # 2. Define weights for each crime type
 # -------------------------------
 crime_weights = {
-    "Murder": 5.0,
+    "Murder": 5,
     "Aggravated Assault": 3.0,
     "Robbery": 2.5,
     "Burglary": 1.5,
     "Arson": 1.5,
-    "Simple Assault": 1.0
+    "Simple Assault": 1
 }
 
 # -------------------------------
@@ -64,13 +65,13 @@ df["crime_score"] = df["name"].apply(match_crime_score)
 # -------------------------------
 # 6. Scale the length directly
 # -------------------------------
-scale_factor = 0.05  # +5% per weighted crime unit
+scale_factor = 0.5  # +5% per weighted crime unit
 df["length"] = df["length"] * (1 + scale_factor * df["crime_score"])
 
 # -------------------------------
 # 7. Save updated CSV
 # -------------------------------
-out_path = "newbrunswick_edges_weighted.csv"
+out_path = os.path.join(os.getcwd(), "osm", "newbrunswick_edges_weighted.csv")
 df.to_csv(out_path, index=False)
 print(f"✅ Saved file with updated lengths to {out_path}")
 

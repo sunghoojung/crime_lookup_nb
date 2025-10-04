@@ -93,7 +93,7 @@ function calculateDistance(path) {
 // Function to estimate duration (assuming 15 mph average speed in city)
 function estimateDuration(distanceStr) {
   const distance = parseFloat(distanceStr);
-  const avgSpeed = 15; // mph for city driving
+  const avgSpeed = 5; // mph for city driving
   const minutes = Math.round((distance / avgSpeed) * 60);
 
   if (minutes < 60) {
