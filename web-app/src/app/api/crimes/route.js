@@ -73,7 +73,7 @@ export async function POST(request) {
     };
 
     // Read the existing crimes from file.json
-    const filePath = path.join(process.cwd(), 'file.json');
+    const filePath = path.join(process.cwd(), 'src/data/file.json');
     const fileContent = await fs.readFile(filePath, 'utf8');
     const crimes = JSON.parse(fileContent);
 
@@ -103,7 +103,7 @@ export async function POST(request) {
 export async function GET() {
   try {
     // Read the crimes from file.json
-    const filePath = path.join(process.cwd(), 'file.json');
+    const filePath = path.join(process.cwd(), 'src/data/file.json');
     const fileContent = await fs.readFile(filePath, 'utf8');
     const crimes = JSON.parse(fileContent);
 

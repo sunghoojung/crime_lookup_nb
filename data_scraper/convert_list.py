@@ -127,6 +127,6 @@ for row in rows[1:]:
 # Output JSON
 
 json_output = json.dumps(crime_data, indent=2)
-with open("file.json", "w", encoding="utf-8") as file:
+with open("data_scraper/crime_list.json", "w", encoding="utf-8") as file:
     json.dump(crime_data, file, indent=2)
 print(json_output)

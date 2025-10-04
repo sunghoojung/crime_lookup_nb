@@ -656,5 +656,47 @@
         "time": "10/03/2025 16:38",
         "location": "Somerset St",
         "category": "Arson"
+    },
+    {
+        "type": "Aggravated Assault Recklessly Cause Injury With Weapon",
+        "record_id": "25NB91500-1",
+        "time": "10/03/2025 16:52",
+        "location": "George St",
+        "category": "Aggravated Assault"
+    },
+    {
+        "type": "Aggravated Assault",
+        "record_id": "25NB52695-1",
+        "time": "10/03/2025 16:59",
+        "location": "George St",
+        "category": "Aggravated Assault"
+    },
+    {
+        "type": "Shooting With Injuries",
+        "record_id": "25NB20956-1",
+        "time": "10/03/2025 17:03",
+        "location": "Somerset St",
+        "category": "Shooting with Injuries"
+    },
+    {
+        "type": "Robbery By Force",
+        "record_id": "25NB73289-1",
+        "time": "10/03/2025 17:05",
+        "location": "George St",
+        "category": "Robbery"
+    },
+    {
+        "type": "Aggravated Assault",
+        "record_id": "25NB82312-1",
+        "time": "10/03/2025 17:06",
+        "location": "George St",
+        "category": "Aggravated Assault"
+    },
+    {
+        "type": "Murder Knowingly",
+        "record_id": "25NB67684-1",
+        "time": "10/03/2025 17:07",
+        "location": "George St",
+        "category": "Murder"
     }
 ]

@@ -1,4 +1,4 @@
-import crimeDataRaw from '../../file.json';
+import crimeDataRaw from '../data/file.json'; 
 import { parseISO, format, subDays, startOfDay, endOfDay, isWithinInterval } from 'date-fns';
 
 // Crime categories with their associated colors
