@@ -1,3 +1,6 @@
+# Update
+Winner of Fall 2025 HackRU hackathon for social good track!
+
 # CRIME LOOKUP REPO
 
 <img width="806" height="481" alt="image" src="https://github.com/user-attachments/assets/c2624762-2750-487b-a211-71c60ad63225" />
